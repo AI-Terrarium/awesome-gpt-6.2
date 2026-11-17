@@ -1,8 +1,10 @@
 # Community gallery
 
-[Back to Awesome GPT-6.2](README.md)
+[Back to Awesome GPT-6.2 Demo Atlas](README.md)
 
 The posts here predate OpenAI's November 17 public announcement. Rows labeled **reported** preserve the creator's model claim. **Routing uncertain** means the creator inferred or questioned the checkpoint. A recording shows the result. A live link opens the work. Where the author describes a simulation, this catalog covers the visual demo.
+
+[Playable](#playable) · [3D worlds](#3d-worlds-and-procedural-scenes) · [Motion and simulation](#visual-simulation-and-motion) · [Games and comparisons](#game-prototypes-and-comparisons)
 
 ## Playable
 

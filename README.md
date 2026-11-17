@@ -1,8 +1,24 @@
-# Awesome GPT-6.2
+# Awesome GPT-6.2 Demo Atlas
 
-A curated collection of games, 3D worlds, creative tools, simulations, and other demos made with GPT-6.2 Astra or Sol. Start here for playable work, then explore the [community gallery](COMMUNITY.md) for creator recordings and comparisons.
+Games, interactive 3D worlds, creative tools, and experiments built with GPT-6.2 Astra or Sol. Curated by AI Terrarium.
 
-A work can have a public demo, public source, or both. The catalog records each separately. **Official** means the publisher states the model on the project or launch page. **Creator-reported** means the author names the model. **Routing uncertain** marks cases where the author inferred the checkpoint. [OpenAI announced public availability on November 17, 2026](https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531). Earlier community reports are labeled as prelaunch. This is an independent AI Terrarium collection.
+[Try live demos](#playable-and-interactive) · [Read the source](#source-available) · [Watch community demos](COMMUNITY.md) · [See CAD and simulations](#beyond-browser-games)
+
+## A few places to start
+
+<a href="https://escapement.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/escapement/gallery-cover.webp" alt="Escapement marble run" width="320"></a>
+
+**Escapement** · Follow a marble through a mechanical chain reaction. [Build notes by Eric Provencher](https://developers.openai.com/showcase/escapement)
+
+<a href="https://forest-walks-at-dusk.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/forest-walks/gallery-cover.webp" alt="Forest Walks at dusk" width="320"></a>
+
+**Forest Walks** · Switch between three versions of the same trail as you walk. [Build notes by Thomas Ricouard](https://developers.openai.com/showcase/forest-walks)
+
+<a href="https://terrarium-glasshouse-studio.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/terrarium-glasshouse-studio/gallery-cover.webp" alt="Terrarium glass garden editor" width="320"></a>
+
+**Terrarium** · Arrange plants in a glass jar and move the light to see how the scene changes. [Build notes by Katia Gil Guzman](https://developers.openai.com/showcase/terrarium-glasshouse-studio)
+
+Preview images link directly to the works. All three projects are credited on their OpenAI showcase pages as GPT-6.2 Astra.
 
 ## Source available
 
@@ -52,8 +68,12 @@ Two more interactive works have prelaunch claims and are indexed with their prov
 
 For a model-neutral catalog of procedural geometry, materials, terrain, and animation, see [Awesome Code-Native 3D](https://github.com/jiachengliu12345/awesome-code-native-3d).
 
+## How entries are checked
+
+- **Live** opens the hosted work. **Public source** points to code you can inspect. A recording is labeled as such. Reuse permissions are stated where a license can be found.
+- **Official** attribution comes from the publisher. **Creator-reported** attribution comes from the maker. **Routing uncertain** marks an inferred model checkpoint. Prelaunch dates are relative to [OpenAI's November 17, 2026 announcement](https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531).
+- **Last link check · 2026-11-18.** The hosted demo pages responded. For each community recording, follow the linked post for the author's claim and any shared prompt.
+
 ## Contribute
 
 Open an issue or pull request with the creator's original post or repository, the exact model, and any live, source, or recording links. Say whether the author named the model, showed the model ID, or inferred a preview route. If the source has a license, note whether it covers code, art, and audio. When a comparison uses one prompt, link to it if the creator has shared it.
-
-Catalog checked on **2026-11-18**. Hosted demo URLs responded to an accessibility check. We have not played every work, run each source repository, or independently verified prelaunch model routing.
