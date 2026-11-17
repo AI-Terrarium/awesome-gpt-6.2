@@ -2,19 +2,30 @@
 
 **English** · [简体中文](README.zh-CN.md) · **Last Updated · 2026-11-18**
 
-[**Explore Terrarium on GitHub ↗**](https://github.com/AI-Terrarium/terrarium) · [Browse the website ↗](https://terraium.ai/)
+[**Explore Terrarium on GitHub ↗**](https://github.com/AI-Terrarium/terrarium) · [Browse works ↗](https://terraium.ai/) · [Source archive ↗](https://huggingface.co/datasets/AI-Terrarium/terrarium-open-works)
 
 <a href="https://github.com/AI-Terrarium/terrarium"><img src="https://raw.githubusercontent.com/AI-Terrarium/terrarium/main/assets/banner.webp" alt="Terrarium catalog of 3D games and interactive worlds" width="880"></a>
 
-GPT-6.2 demos across 3D, creative coding, and engineering. For more playable 3D projects, source code, and prompts, visit [Terrarium](https://github.com/AI-Terrarium/terrarium).
+Explore 3D work from Astra 6.2 and Sol 6.2 through live demos, creator recordings, and same-brief comparisons. Find more worlds, source code, and published prompts in Terrarium.
 
 **45 GPT-6.2 entries** · 21 Astra · 22 Sol · 2 mixed workflows · 6 earlier GPT references
 
-[3D · Astra](#3d--astra-62) · [3D · Sol](#3d--sol-62) · [Creative coding](#creative-coding) · [Science and engineering](#science-and-engineering) · [Source code](#source-available) · [Community gallery](COMMUNITY.md)
+[3D · Astra](#3d--astra-62) · [3D · Sol](#3d--sol-62) · [Model performance](#model-performance) · [Creative coding](#creative-coding) · [Science and engineering](#science-and-engineering) · [Source code](#source-available) · [Community gallery](COMMUNITY.md)
+
+## Model performance
+
+| Measure | GPT-6.2 Astra | GPT-6.2 Sol |
+| --- | --- | --- |
+| AA-3D interactive scene quality · Max | **1,318 ± 31 Elo** | **1,259 ± 28 Elo** |
+| Standard API price · per million input / output tokens | **$8 / $40** | **$2 / $10** |
+
+AA-3D Elo reflects blind preferences between interactive scenes built from the same brief, with 95% intervals shown. The API figures are unit rates. To see what a scene costs to build, compare the benchmark's measured cost, token use, and turns per task.
+
+[Try scenes from the same brief](https://artificialanalysis.ai/3d/explorer) · [AA-3D leaderboard](https://artificialanalysis.ai/evaluations/aa-3d#aa-3d-leaderboard) · [Cost per task](https://artificialanalysis.ai/evaluations/aa-3d#cost) · [API pricing](https://openai.com/index/introducing-gpt-6-2-astra-sol/#pricing-and-availability)
 
 ## 3D · Astra 6.2
 
-Open a preview to try the work. Official projects include build notes. The prelaunch community recording is labeled on its card.
+Click a preview to try the work. Official demos include build notes. The prelaunch community card links to a recording.
 
 <table>
 <tr>
@@ -36,7 +47,7 @@ Open a preview to try the work. Official projects include build notes. The prela
 
 ## 3D · Sol 6.2
 
-These recordings were shared by their creators before GPT-6.2 launched. The previews link to their original posts and model claims.
+The creators shared these recordings before GPT-6.2 launched. Each preview opens the original post and its model claim.
 
 <table>
 <tr>
@@ -98,8 +109,6 @@ The [community creative gallery](COMMUNITY.md#illustration-animation-and-design)
 | Marina City paper lamp | Astra helped turn architectural reference photos into a CAD design and a lamp-builder site. A person assembled the physical lamp. | [Official design video and builder entry](https://openai.com/index/introducing-gpt-6-2-astra-sol/#computer-use-and-interactive-web-design) |
 
 For scientific coding evaluation, see [Terminal-Bench-Science 0.1](https://www.terminal-bench-science.ai/announcement) and the [model-specific runs](https://artificialanalysis.ai/evaluations/terminal-bench-science).
-
-[AA-3D](https://artificialanalysis.ai/evaluations/aa-3d) provides an independent benchmark and explorer for comparing generated Three.js experiences from shared briefs, including pinball, a black hole, and the Colosseum. Check the model shown for each run.
 
 ## Related GPT work
 

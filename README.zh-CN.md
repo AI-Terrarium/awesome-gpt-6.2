@@ -2,19 +2,30 @@
 
 [English](README.md) · **简体中文** · **Last Updated · 2026-11-18**
 
-[**Terrarium 作品库 ↗**](https://github.com/AI-Terrarium/terrarium) · [在线浏览 ↗](https://terraium.ai/)
+[**Terrarium 作品库 ↗**](https://github.com/AI-Terrarium/terrarium) · [在线作品 ↗](https://terraium.ai/) · [源码档案 ↗](https://huggingface.co/datasets/AI-Terrarium/terrarium-open-works)
 
 <a href="https://github.com/AI-Terrarium/terrarium"><img src="https://raw.githubusercontent.com/AI-Terrarium/terrarium/main/assets/banner.webp" alt="Terrarium 作品库中的 3D 游戏与交互世界" width="880"></a>
 
-这里收录 GPT-6.2 的 3D 世界、创意编程与科学工程作品。想继续找可玩的 3D 项目、源码和提示词，可以逛 [Terrarium](https://github.com/AI-Terrarium/terrarium)。
+这里可以体验 Astra 6.2 和 Sol 6.2 的 3D 作品，查看作者录屏，并用同题评测对照效果与成本。想找更多可玩的世界、提示词和源码，去 Terrarium。
 
 **45 条 GPT-6.2 案例** · Astra 21 · Sol 22 · 混合流程 2 · 另有 6 条早期 GPT 对照
 
-[3D · Astra](#3d--astra-62) · [3D · Sol](#3d--sol-62) · [创意编程](#创意编程) · [科学与工程](#科学与工程) · [公开源码](#公开源码) · [社区作品](COMMUNITY.zh-CN.md)
+[3D · Astra](#3d--astra-62) · [3D · Sol](#3d--sol-62) · [模型表现](#模型表现) · [创意编程](#创意编程) · [科学与工程](#科学与工程) · [公开源码](#公开源码) · [社区作品](COMMUNITY.zh-CN.md)
+
+## 模型表现
+
+| 看什么 | GPT-6.2 Astra | GPT-6.2 Sol |
+| --- | --- | --- |
+| AA-3D 交互作品质量 · Max | **1,318 ± 31 Elo** | **1,259 ± 28 Elo** |
+| 标准 API 价格 · 每百万输入／输出 token | **$8／$40** | **$2／$10** |
+
+AA-3D 让评审盲测同一题目下的两件作品。Elo 衡量评审偏好，附 95% 置信区间。表中的 API 价格是单价。想知道做一件作品实际花多少钱，可看评测统计的每题成本、token 用量与迭代轮数。
+
+[打开同题作品](https://artificialanalysis.ai/3d/explorer) · [AA-3D 排名](https://artificialanalysis.ai/evaluations/aa-3d#aa-3d-leaderboard) · [每题成本](https://artificialanalysis.ai/evaluations/aa-3d#cost) · [API 定价](https://openai.com/index/introducing-gpt-6-2-astra-sol/#pricing-and-availability)
 
 ## 3D · Astra 6.2
 
-点击预览进入作品。官方项目附制作笔记，发布前的社区录像在卡片上注明。
+点预览就能试玩。官方项目附制作笔记，发布前的社区录像单独标明。
 
 <table>
 <tr>
@@ -36,7 +47,7 @@
 
 ## 3D · Sol 6.2
 
-这些是作者在正式发布前分享的录像。点击预览可看原帖和模型归因。
+点预览看作者录屏。这组作品出自发布前的测试，模型归因以原帖为准。
 
 <table>
 <tr>
@@ -97,7 +108,7 @@
 | 直列六缸发动机 | Astra 按部件构建发动机模型。 | [官方展示](https://openai.com/index/introducing-gpt-6-2-astra-sol/#computer-use-and-interactive-web-design) |
 | Marina City 纸灯 | Astra 把建筑参考照片变成 CAD 设计和纸灯制作网页，实体灯由人组装。 | [设计过程和工具入口](https://openai.com/index/introducing-gpt-6-2-astra-sol/#computer-use-and-interactive-web-design) |
 
-科学编程的实际任务和模型成绩可查 [Terminal-Bench-Science 0.1](https://www.terminal-bench-science.ai/announcement) 与[各模型的评测结果](https://artificialanalysis.ai/evaluations/terminal-bench-science)。想比较同一个题目下的交互作品，可看 [AA-3D](https://artificialanalysis.ai/evaluations/aa-3d) 的弹球、黑洞和斗兽场等题目，打开前留意每个结果的模型标签。
+想看模型如何完成完整的科研任务，可以查 [Terminal-Bench-Science 0.1](https://www.terminal-bench-science.ai/announcement) 和[各模型的评测结果](https://artificialanalysis.ai/evaluations/terminal-bench-science)。
 
 ## 早期 GPT 作品对照
 
