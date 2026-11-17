@@ -1,77 +1,85 @@
 # Awesome GPT-6.2
 
-[English](README.md) · **简体中文** · **Last Updated · 2026-11-18**
+<sub><a href="README.md">English</a> · 简体中文 · Last Updated 2026-11-18</sub>
 
-[**Terrarium 作品库 ↗**](https://github.com/AI-Terrarium/terrarium) · [在线作品 ↗](https://terraium.ai/) · [源码档案 ↗](https://huggingface.co/datasets/AI-Terrarium/terrarium-open-works)
+[**Terrarium 作品库**](https://github.com/AI-Terrarium/terrarium) · [在线作品](https://terraium.ai/) · [源码档案](https://huggingface.co/datasets/AI-Terrarium/terrarium-open-works)
 
-<a href="https://github.com/AI-Terrarium/terrarium"><img src="https://raw.githubusercontent.com/AI-Terrarium/terrarium/main/assets/banner.webp" alt="Terrarium 作品库中的 3D 游戏与交互世界" width="880"></a>
+GPT-6.2 的 3D 作品、同题评测和公开源码。Terrarium 收录更多模型做的作品，也整理创作者公开的提示词与代码。
 
-这里可以体验 Astra 6.2 和 Sol 6.2 的 3D 作品，查看作者录屏，并用同题评测对照效果与成本。想找更多可玩的世界、提示词和源码，去 Terrarium。
+[**试玩 Forest Walks**](https://forest-walks-at-dusk.openai.chatgpt.site/) · [**看 Sol 录屏**](#3d--sol-62) · [**同题对照**](https://artificialanalysis.ai/3d/explorer) · [**找源码**](#公开源码)
 
-**45 条 GPT-6.2 案例** · Astra 21 · Sol 22 · 混合流程 2 · 另有 6 条早期 GPT 对照
+<a href="https://github.com/AI-Terrarium/terrarium"><img src="https://raw.githubusercontent.com/AI-Terrarium/terrarium/main/assets/banner.webp" alt="Terrarium 作品库中的 3D 游戏与交互世界" width="768"></a>
 
-[3D · Astra](#3d--astra-62) · [3D · Sol](#3d--sol-62) · [模型表现](#模型表现) · [创意编程](#创意编程) · [科学与工程](#科学与工程) · [公开源码](#公开源码) · [社区作品](COMMUNITY.zh-CN.md)
+45 条 GPT-6.2 案例（Astra 21 · Sol 22 · 混合 2） · [全部 Astra 3D](#3d--astra-62) · [创意编程](#创意编程) · [科学与工程](#科学与工程) · [社区作品](COMMUNITY.zh-CN.md)
 
 ## 模型表现
 
-| 看什么 | GPT-6.2 Astra | GPT-6.2 Sol |
+| 指标 | Astra 6.2 | Sol 6.2 |
 | --- | --- | --- |
-| AA-3D 交互作品质量 · Max | **1,318 ± 31 Elo** | **1,259 ± 28 Elo** |
-| 标准 API 价格 · 每百万输入／输出 token | **$8／$40** | **$2／$10** |
+| AA-3D Elo（Max） | **1,318 ± 31** | **1,259 ± 28** |
+| API 输入／输出 | **$8 / $40** | **$2 / $10** |
 
-AA-3D 让评审盲测同一题目下的两件作品。Elo 衡量评审偏好，附 95% 置信区间。表中的 API 价格是单价。想知道做一件作品实际花多少钱，可看评测统计的每题成本、token 用量与迭代轮数。
+Elo 来自同题作品的盲测偏好（95% 置信区间）。API 单价按每百万 token 计费。
 
-[打开同题作品](https://artificialanalysis.ai/3d/explorer) · [AA-3D 排名](https://artificialanalysis.ai/evaluations/aa-3d#aa-3d-leaderboard) · [每题成本](https://artificialanalysis.ai/evaluations/aa-3d#cost) · [API 定价](https://openai.com/index/introducing-gpt-6-2-astra-sol/#pricing-and-availability)
+[同题试玩](https://artificialanalysis.ai/3d/explorer) · [排名](https://artificialanalysis.ai/evaluations/aa-3d#aa-3d-leaderboard) · [每题成本](https://artificialanalysis.ai/evaluations/aa-3d#cost) · [API 定价](https://openai.com/index/introducing-gpt-6-2-astra-sol/#pricing-and-availability)
 
 ## 3D · Astra 6.2
 
-点预览就能试玩。官方项目附制作笔记，发布前的社区录像单独标明。
+先从 Forest Walks 试玩。八款官方作品可直接体验并查看制作笔记，另有一段标明来源的发布前录屏。
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="https://forest-walks-at-dusk.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/forest-walks/gallery-cover.webp" alt="Forest Walks · Thomas Ricouard" width="240"></a><br><b>Forest Walks · Thomas Ricouard</b><br><sub>在三种画风里走同一条森林小径，循声找篝火。<br><a href="https://forest-walks-at-dusk.openai.chatgpt.site/">体验</a> · <a href="https://developers.openai.com/showcase/forest-walks">制作笔记</a></sub></td>
-<td width="33%" valign="top"><a href="https://escapement.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/escapement/gallery-cover.webp" alt="Escapement · Eric Provencher" width="240"></a><br><b>Escapement · Eric Provencher</b><br><sub>看三颗弹珠触发一连串机械装置。<br><a href="https://escapement.openai.chatgpt.site/">体验</a> · <a href="https://developers.openai.com/showcase/escapement">制作笔记</a></sub></td>
-<td width="33%" valign="top"><a href="https://dot-rumble-arcade.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/dot-rumble/gallery-cover.webp" alt="Dot Rumble · Chaow Wu" width="240"></a><br><b>Dot Rumble · Chaow Wu</b><br><sub>看参考图上的毛绒角色如何变成有骨骼和动作的格斗角色。<br><a href="https://dot-rumble-arcade.openai.chatgpt.site/">体验</a> · <a href="https://developers.openai.com/showcase/dot-rumble">制作笔记</a></sub></td>
+<td width="50%" valign="top"><a href="https://forest-walks-at-dusk.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/forest-walks/gallery-cover.webp" alt="Forest Walks · Thomas Ricouard" width="228"></a><br><b>Forest Walks</b><br><sub>Thomas Ricouard</sub><br>在三种画风里走同一条森林小径，循声找篝火。<br><a href="https://forest-walks-at-dusk.openai.chatgpt.site/">体验</a> · <a href="https://developers.openai.com/showcase/forest-walks">制作笔记</a></td>
+<td width="50%" valign="top"><a href="https://escapement.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/escapement/gallery-cover.webp" alt="Escapement · Eric Provencher" width="228"></a><br><b>Escapement</b><br><sub>Eric Provencher</sub><br>看三颗弹珠触发一连串机械装置。<br><a href="https://escapement.openai.chatgpt.site/">体验</a> · <a href="https://developers.openai.com/showcase/escapement">制作笔记</a></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="https://light-and-matter.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/light-and-matter/gallery-cover.webp" alt="Light &amp; Matter · Eric Provencher" width="240"></a><br><b>Light &amp; Matter · Eric Provencher</b><br><sub>逛一座光影博物馆，近距离看材质、倒影和特效。<br><a href="https://light-and-matter.openai.chatgpt.site/">体验</a> · <a href="https://developers.openai.com/showcase/light-and-matter">制作笔记</a></sub></td>
-<td width="33%" valign="top"><a href="https://paris-atlas-street-explorer.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/paris-atlas/gallery-cover.webp" alt="Paris Atlas · Thomas Ricouard" width="240"></a><br><b>Paris Atlas · Thomas Ricouard</b><br><sub>在巴黎步行或开车。街道和建筑按地图数据流式加载，部分地标用了照片。<br><a href="https://paris-atlas-street-explorer.openai.chatgpt.site/">体验</a> · <a href="https://developers.openai.com/showcase/paris-atlas">制作笔记</a></sub></td>
-<td width="33%" valign="top"><a href="https://cathedral-walk.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/notre-damn/gallery-cover.webp" alt="Notre Damn · Thomas Ricouard" width="240"></a><br><b>Notre Damn · Thomas Ricouard</b><br><sub>走进巴黎圣母院，逛小礼拜堂，切换光照时段。<br><a href="https://cathedral-walk.openai.chatgpt.site/">体验</a> · <a href="https://developers.openai.com/showcase/notre-damn">制作笔记</a></sub></td>
+<td width="50%" valign="top"><a href="https://dot-rumble-arcade.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/dot-rumble/gallery-cover.webp" alt="Dot Rumble · Chaow Wu" width="228"></a><br><b>Dot Rumble</b><br><sub>Chaow Wu</sub><br>看参考图上的毛绒角色如何变成有骨骼和动作的格斗角色。<br><a href="https://dot-rumble-arcade.openai.chatgpt.site/">体验</a> · <a href="https://developers.openai.com/showcase/dot-rumble">制作笔记</a></td>
+<td width="50%" valign="top"><a href="https://light-and-matter.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/light-and-matter/gallery-cover.webp" alt="Light &amp; Matter · Eric Provencher" width="228"></a><br><b>Light &amp; Matter</b><br><sub>Eric Provencher</sub><br>逛一座光影博物馆，近距离看材质、倒影和特效。<br><a href="https://light-and-matter.openai.chatgpt.site/">体验</a> · <a href="https://developers.openai.com/showcase/light-and-matter">制作笔记</a></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="https://terrarium-glasshouse-studio.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/terrarium-glasshouse-studio/gallery-cover.webp" alt="Terrarium Glasshouse Studio · Katia Gil Guzman" width="240"></a><br><b>Terrarium Glasshouse Studio · Katia Gil Guzman</b><br><sub>在玻璃罐里摆放植物、苔藓和枝条，再调光看效果。<br><a href="https://terrarium-glasshouse-studio.openai.chatgpt.site/">体验</a> · <a href="https://developers.openai.com/showcase/terrarium-glasshouse-studio">制作笔记</a></sub></td>
-<td width="33%" valign="top"><a href="https://imac-g3-in-motion.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/imac-g3-in-motion/gallery-cover.webp" alt="iMac G3 in Motion · Dominik Kundel" width="240"></a><br><b>iMac G3 in Motion · Dominik Kundel</b><br><sub>滚动查看电脑如何装配，并切换外壳颜色。<br><a href="https://imac-g3-in-motion.openai.chatgpt.site/">体验</a> · <a href="https://developers.openai.com/showcase/imac-g3-in-motion">制作笔记</a></sub></td>
-<td width="33%" valign="top"><a href="https://x.com/karanC_12/status/2116895719248536032"><img src="https://pbs.twimg.com/amplify_video_thumb/2116861535880667136/img/MDtD5GVn0iU5sbs4.jpg" alt="半开放式 3D RPG · @karanC_12" width="240"></a><br><b>半开放式 3D RPG · @karanC_12</b><br><sub>据称由单条提示词生成的原型游戏实录。<br>作者称发布前使用 Astra<br><a href="https://x.com/karanC_12/status/2116895719248536032">录屏原帖</a></sub></td>
+<td width="50%" valign="top"><a href="https://paris-atlas-street-explorer.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/paris-atlas/gallery-cover.webp" alt="Paris Atlas · Thomas Ricouard" width="228"></a><br><b>Paris Atlas</b><br><sub>Thomas Ricouard</sub><br>在巴黎步行或开车。街道和建筑按地图数据流式加载，部分地标用了照片。<br><a href="https://paris-atlas-street-explorer.openai.chatgpt.site/">体验</a> · <a href="https://developers.openai.com/showcase/paris-atlas">制作笔记</a></td>
+<td width="50%" valign="top"><a href="https://cathedral-walk.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/notre-damn/gallery-cover.webp" alt="Notre Damn · Thomas Ricouard" width="228"></a><br><b>Notre Damn</b><br><sub>Thomas Ricouard</sub><br>走进巴黎圣母院，逛小礼拜堂，切换光照时段。<br><a href="https://cathedral-walk.openai.chatgpt.site/">体验</a> · <a href="https://developers.openai.com/showcase/notre-damn">制作笔记</a></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://terrarium-glasshouse-studio.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/terrarium-glasshouse-studio/gallery-cover.webp" alt="Terrarium Glasshouse Studio · Katia Gil Guzman" width="228"></a><br><b>Terrarium Glasshouse Studio</b><br><sub>Katia Gil Guzman</sub><br>在玻璃罐里摆放植物、苔藓和枝条，再调光看效果。<br><a href="https://terrarium-glasshouse-studio.openai.chatgpt.site/">体验</a> · <a href="https://developers.openai.com/showcase/terrarium-glasshouse-studio">制作笔记</a></td>
+<td width="50%" valign="top"><a href="https://imac-g3-in-motion.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/imac-g3-in-motion/gallery-cover.webp" alt="iMac G3 in Motion · Dominik Kundel" width="228"></a><br><b>iMac G3 in Motion</b><br><sub>Dominik Kundel</sub><br>滚动查看电脑如何装配，并切换外壳颜色。<br><a href="https://imac-g3-in-motion.openai.chatgpt.site/">体验</a> · <a href="https://developers.openai.com/showcase/imac-g3-in-motion">制作笔记</a></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://x.com/karanC_12/status/2116895719248536032"><img src="https://pbs.twimg.com/amplify_video_thumb/2116861535880667136/img/MDtD5GVn0iU5sbs4.jpg" alt="半开放式 3D RPG · @karanC_12" width="228"></a><br><b>半开放式 3D RPG</b><br><sub>@karanC_12</sub><br>据称由单条提示词生成的原型游戏实录。<br>作者称发布前使用 Astra<br><a href="https://x.com/karanC_12/status/2116895719248536032">录屏原帖</a></td>
 </tr>
 </table>
 
 ## 3D · Sol 6.2
 
-点预览看作者录屏。这组作品出自发布前的测试，模型归因以原帖为准。
+这 13 段录屏由创作者在正式发布前分享，模型标签来自原帖。
 
 <table>
 <tr>
-<td width="33%" valign="top"><a href="https://x.com/Mr_Salio/status/2119437812604838342"><img src="https://pbs.twimg.com/amplify_video_thumb/2119437684120707072/img/hWdo-zoXb1i1TRWG.jpg" alt="神殿与行星 · @Mr_Salio" width="240"></a><br><b>神殿与行星 · @Mr_Salio</b><br><sub>神殿、云层与高悬空中的巨型行星。创作者称未使用外部素材。<br><a href="https://x.com/Mr_Salio/status/2119437812604838342">录屏原帖</a></sub></td>
-<td width="33%" valign="top"><a href="https://x.com/TokenGremlin/status/2119409785900552548"><img src="https://pbs.twimg.com/amplify_video_thumb/2119409755286384640/img/FUyYzAl2XbSN0HDB.jpg" alt="从白昼到夜晚的村庄 · @TokenGremlin" width="240"></a><br><b>从白昼到夜晚的村庄 · @TokenGremlin</b><br><sub>单个 Three.js HTML 文件中的河流与樱花，光线随时间变化。<br><a href="https://x.com/TokenGremlin/status/2119409785900552548">录屏原帖</a></sub></td>
-<td width="33%" valign="top"><a href="https://x.com/teddyaisi/status/2119503047646908664"><img src="https://pbs.twimg.com/amplify_video_thumb/2119501790601416704/img/i9BaBVQpTiUsxyhD.jpg" alt="单个 HTML 文件打造的城市 · @teddyaisi" width="240"></a><br><b>单个 HTML 文件打造的城市 · @teddyaisi</b><br><sub>Three.js 城市。作者称场景可交互且能离线运行。<br><a href="https://x.com/teddyaisi/status/2119503047646908664">录屏原帖</a></sub></td>
+<td width="50%" valign="top"><a href="https://x.com/Mr_Salio/status/2119437812604838342"><img src="https://pbs.twimg.com/amplify_video_thumb/2119437684120707072/img/hWdo-zoXb1i1TRWG.jpg" alt="神殿与行星 · @Mr_Salio" width="228"></a><br><b>神殿与行星</b><br><sub>@Mr_Salio</sub><br>神殿、云层与高悬空中的巨型行星。创作者称未使用外部素材。<br><a href="https://x.com/Mr_Salio/status/2119437812604838342">录屏原帖</a></td>
+<td width="50%" valign="top"><a href="https://x.com/TokenGremlin/status/2119409785900552548"><img src="https://pbs.twimg.com/amplify_video_thumb/2119409755286384640/img/FUyYzAl2XbSN0HDB.jpg" alt="从白昼到夜晚的村庄 · @TokenGremlin" width="228"></a><br><b>从白昼到夜晚的村庄</b><br><sub>@TokenGremlin</sub><br>单个 Three.js HTML 文件中的河流与樱花，光线随时间变化。<br><a href="https://x.com/TokenGremlin/status/2119409785900552548">录屏原帖</a></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="https://x.com/Khazix0918/status/2119507514459144677"><img src="https://pbs.twimg.com/amplify_video_thumb/2119507467990413312/img/dCMmCV5ohy_PaqTY.jpg" alt="时间尽头 · @Khazix0918" width="240"></a><br><b>时间尽头 · @Khazix0918</b><br><sub>可用鼠标交互的 Three.js 环境。创作者分享了任务说明。<br>Sol，作者称经路由使用<br><a href="https://x.com/Khazix0918/status/2119507514459144677">录屏原帖</a></sub></td>
-<td width="33%" valign="top"><a href="https://x.com/AnikaCodes/status/2119858362318033315"><img src="https://pbs.twimg.com/amplify_video_thumb/2119849730087833600/img/ieJLfQURTiMhfGWt.jpg" alt="从夏入冬 · @AnikaCodes" width="240"></a><br><b>从夏入冬 · @AnikaCodes</b><br><sub>玻璃罩中的微缩世界：湖面结冰，树木覆白。<br><a href="https://x.com/AnikaCodes/status/2119858362318033315">录屏原帖</a></sub></td>
-<td width="33%" valign="top"><a href="https://x.com/marcthecreatorr/status/2119437126194335764"><img src="https://pbs.twimg.com/amplify_video_thumb/2119436763835854848/img/KsFMXlW6f3Tq1QSc.jpg" alt="帆船 · @marcthecreatorr" width="240"></a><br><b>帆船 · @marcthecreatorr</b><br><sub>船舱内部、反射光线与昼夜循环。作者称作品为单个 Three.js HTML 文件，未使用外部 3D 素材。<br><a href="https://x.com/marcthecreatorr/status/2119437126194335764">录屏原帖</a></sub></td>
+<td width="50%" valign="top"><a href="https://x.com/teddyaisi/status/2119503047646908664"><img src="https://pbs.twimg.com/amplify_video_thumb/2119501790601416704/img/i9BaBVQpTiUsxyhD.jpg" alt="单个 HTML 文件打造的城市 · @teddyaisi" width="228"></a><br><b>单个 HTML 文件打造的城市</b><br><sub>@teddyaisi</sub><br>Three.js 城市。作者称场景可交互且能离线运行。<br><a href="https://x.com/teddyaisi/status/2119503047646908664">录屏原帖</a></td>
+<td width="50%" valign="top"><a href="https://x.com/Khazix0918/status/2119507514459144677"><img src="https://pbs.twimg.com/amplify_video_thumb/2119507467990413312/img/dCMmCV5ohy_PaqTY.jpg" alt="时间尽头 · @Khazix0918" width="228"></a><br><b>时间尽头</b><br><sub>@Khazix0918</sub><br>可用鼠标交互的 Three.js 环境。创作者分享了任务说明。<br>Sol，作者称经路由使用<br><a href="https://x.com/Khazix0918/status/2119507514459144677">录屏原帖</a></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="https://x.com/mirochill/status/2119886504751194537"><img src="https://pbs.twimg.com/amplify_video_thumb/2119886262043639809/img/-KGR-EqmRFBBH_OC.jpg" alt="厨房场景 · @mirochill" width="240"></a><br><b>厨房场景 · @mirochill</b><br><sub>一次环境设计测试，创作者使用了留有更多布局发挥空间的任务说明。<br><a href="https://x.com/mirochill/status/2119886504751194537">录屏原帖</a></sub></td>
-<td width="33%" valign="top"><a href="https://x.com/Huoimo/status/2119721282170425584"><img src="https://pbs.twimg.com/amplify_video_thumb/2119719941834162176/img/Smse4dp4h5m_TgG3.jpg" alt="数学狮子 · @Huoimo" width="240"></a><br><b>数学狮子 · @Huoimo</b><br><sub>作者称狮身由有符号距离场构建，鬃毛则由发丝组成。<br><a href="https://x.com/Huoimo/status/2119721282170425584">录屏原帖</a></sub></td>
-<td width="33%" valign="top"><a href="https://x.com/dragono64v/status/2120545025893474415"><img src="https://pbs.twimg.com/amplify_video_thumb/2120544954028273664/img/MW3Rlkiste-jkTTx.jpg" alt="机械蝴蝶 · @dragono64v" width="240"></a><br><b>机械蝴蝶 · @dragono64v</b><br><sub>Three.js 原型中的齿轮和关节翅膀会运动。<br><a href="https://x.com/dragono64v/status/2120545025893474415">录屏原帖</a></sub></td>
+<td width="50%" valign="top"><a href="https://x.com/AnikaCodes/status/2119858362318033315"><img src="https://pbs.twimg.com/amplify_video_thumb/2119849730087833600/img/ieJLfQURTiMhfGWt.jpg" alt="从夏入冬 · @AnikaCodes" width="228"></a><br><b>从夏入冬</b><br><sub>@AnikaCodes</sub><br>玻璃罩中的微缩世界：湖面结冰，树木覆白。<br><a href="https://x.com/AnikaCodes/status/2119858362318033315">录屏原帖</a></td>
+<td width="50%" valign="top"><a href="https://x.com/marcthecreatorr/status/2119437126194335764"><img src="https://pbs.twimg.com/amplify_video_thumb/2119436763835854848/img/KsFMXlW6f3Tq1QSc.jpg" alt="帆船 · @marcthecreatorr" width="228"></a><br><b>帆船</b><br><sub>@marcthecreatorr</sub><br>船舱内部、反射光线与昼夜循环。作者称作品为单个 Three.js HTML 文件，未使用外部 3D 素材。<br><a href="https://x.com/marcthecreatorr/status/2119437126194335764">录屏原帖</a></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="https://x.com/Cayden970207/status/2119464819229344113"><img src="https://pbs.twimg.com/amplify_video_thumb/2119464225299152896/img/ZysGDL457Z-2Myr9.jpg" alt="龙卷风 · @Cayden970207" width="240"></a><br><b>龙卷风 · @Cayden970207</b><br><sub>可交互的 Three.js 龙卷风。创作者分享了任务说明，并称作品由单次运行生成。<br>Sol Max，作者称经路由使用<br><a href="https://x.com/Cayden970207/status/2119464819229344113">录屏原帖</a></sub></td>
-<td width="33%" valign="top"><a href="https://x.com/pankajkumar_dev/status/2119469657291997366"><img src="https://pbs.twimg.com/amplify_video_thumb/2119468024617160704/img/cCAWrs6LweOR2fYT.jpg" alt="黑洞引力透镜 · @pankajkumar_dev" width="240"></a><br><b>黑洞引力透镜 · @pankajkumar_dev</b><br><sub>发光吸积盘，以及对引力透镜效应的视觉呈现。<br><a href="https://x.com/pankajkumar_dev/status/2119469657291997366">录屏原帖</a></sub></td>
-<td width="33%" valign="top"><a href="https://x.com/pankajkumar_dev/status/2119465155109196254"><img src="https://pbs.twimg.com/amplify_video_thumb/2119464782411780096/img/6Oce_2WAtZ9DVeIg.jpg" alt="超新星 · @pankajkumar_dev" width="240"></a><br><b>超新星 · @pankajkumar_dev</b><br><sub>通过代码呈现恒星坍缩与向外扩张的冲击波。<br><a href="https://x.com/pankajkumar_dev/status/2119465155109196254">录屏原帖</a></sub></td>
+<td width="50%" valign="top"><a href="https://x.com/mirochill/status/2119886504751194537"><img src="https://pbs.twimg.com/amplify_video_thumb/2119886262043639809/img/-KGR-EqmRFBBH_OC.jpg" alt="厨房场景 · @mirochill" width="228"></a><br><b>厨房场景</b><br><sub>@mirochill</sub><br>作者放宽布局要求，观察模型如何安排厨房。<br><a href="https://x.com/mirochill/status/2119886504751194537">录屏原帖</a></td>
+<td width="50%" valign="top"><a href="https://x.com/Huoimo/status/2119721282170425584"><img src="https://pbs.twimg.com/amplify_video_thumb/2119719941834162176/img/Smse4dp4h5m_TgG3.jpg" alt="数学狮子 · @Huoimo" width="228"></a><br><b>数学狮子</b><br><sub>@Huoimo</sub><br>作者称狮身由有符号距离场构建，鬃毛则由发丝组成。<br><a href="https://x.com/Huoimo/status/2119721282170425584">录屏原帖</a></td>
 </tr>
 <tr>
-<td width="33%" valign="top"><a href="https://x.com/Thomas_jorgen/status/2119673965576655211"><img src="https://pbs.twimg.com/amplify_video_thumb/2119673512298487808/img/QIzbsMnZoa3KfSZh.jpg" alt="太空海盗 · @Thomas_jorgen" width="240"></a><br><b>太空海盗 · @Thomas_jorgen</b><br><sub>浏览器游戏原型，包含无缝宇宙、船员、贸易与资源管理。<br>通过 TesanaAI 使用 Sol<br><a href="https://x.com/Thomas_jorgen/status/2119673965576655211">录屏原帖</a></sub></td>
+<td width="50%" valign="top"><a href="https://x.com/dragono64v/status/2120545025893474415"><img src="https://pbs.twimg.com/amplify_video_thumb/2120544954028273664/img/MW3Rlkiste-jkTTx.jpg" alt="机械蝴蝶 · @dragono64v" width="228"></a><br><b>机械蝴蝶</b><br><sub>@dragono64v</sub><br>齿轮带动铰接的翅膀张合。<br><a href="https://x.com/dragono64v/status/2120545025893474415">录屏原帖</a></td>
+<td width="50%" valign="top"><a href="https://x.com/Cayden970207/status/2119464819229344113"><img src="https://pbs.twimg.com/amplify_video_thumb/2119464225299152896/img/ZysGDL457Z-2Myr9.jpg" alt="龙卷风 · @Cayden970207" width="228"></a><br><b>龙卷风</b><br><sub>@Cayden970207</sub><br>可交互龙卷风。原帖附提示词，作者称单次生成。<br>Sol Max，作者称经路由使用<br><a href="https://x.com/Cayden970207/status/2119464819229344113">录屏原帖</a></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://x.com/pankajkumar_dev/status/2119469657291997366"><img src="https://pbs.twimg.com/amplify_video_thumb/2119468024617160704/img/cCAWrs6LweOR2fYT.jpg" alt="黑洞引力透镜 · @pankajkumar_dev" width="228"></a><br><b>黑洞引力透镜</b><br><sub>@pankajkumar_dev</sub><br>发光吸积盘，以及对引力透镜效应的视觉呈现。<br><a href="https://x.com/pankajkumar_dev/status/2119469657291997366">录屏原帖</a></td>
+<td width="50%" valign="top"><a href="https://x.com/pankajkumar_dev/status/2119465155109196254"><img src="https://pbs.twimg.com/amplify_video_thumb/2119464782411780096/img/6Oce_2WAtZ9DVeIg.jpg" alt="超新星 · @pankajkumar_dev" width="228"></a><br><b>超新星</b><br><sub>@pankajkumar_dev</sub><br>通过代码呈现恒星坍缩与向外扩张的冲击波。<br><a href="https://x.com/pankajkumar_dev/status/2119465155109196254">录屏原帖</a></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="https://x.com/Thomas_jorgen/status/2119673965576655211"><img src="https://pbs.twimg.com/amplify_video_thumb/2119673512298487808/img/QIzbsMnZoa3KfSZh.jpg" alt="太空海盗 · @Thomas_jorgen" width="228"></a><br><b>太空海盗</b><br><sub>@Thomas_jorgen</sub><br>在连续的太空场景里招募船员、交易和管理资源。<br>通过 TesanaAI 使用 Sol<br><a href="https://x.com/Thomas_jorgen/status/2119673965576655211">录屏原帖</a></td>
 </tr>
 </table>
 
@@ -86,17 +94,17 @@ AA-3D 让评审盲测同一题目下的两件作品。Elo 衡量评审偏好，�
 
 | 作品 | 模型 | 可以看什么 |
 | --- | --- | --- |
-| 潮池木刻 | Astra · 官方 | 两份可编辑 SVG，同一主题分别直接生成、用参考图和设计技能生成。[直接生成](https://cdn.openai.com/devhub/docs/codex/svg-3d-design/tide-pool-without-skill.svg) · [参考图版本](https://cdn.openai.com/devhub/docs/codex/svg-3d-design/tide-pool-with-skill.svg) · [制作说明](https://learn.chatgpt.com/guides/svg-3d-design#creating-vector-illustrations-for-the-web) |
+| 潮池木刻 | Astra · 官方 | 同一题目做了两份可编辑 SVG，其中一份使用参考图和设计技能。[直接生成](https://cdn.openai.com/devhub/docs/codex/svg-3d-design/tide-pool-without-skill.svg) · [参考图版本](https://cdn.openai.com/devhub/docs/codex/svg-3d-design/tide-pool-with-skill.svg) · [制作说明](https://learn.chatgpt.com/guides/svg-3d-design#creating-vector-illustrations-for-the-web) |
 | 从风暴到日出 | Astra · 官方 | 用 JavaScript 改变风速和日光，让 SVG 里的浪高、白沫与色调一起变化。[动画和制作说明](https://learn.chatgpt.com/guides/svg-3d-design#animating-svg-curves-and-colors-with-code) |
 | 飞蛾图鉴图标 | Astra · 官方 | 同一套 SVG 路径，换色后适配深浅主题，并在应用商店和小尺寸桌面图标上预览。[设计过程](https://learn.chatgpt.com/guides/svg-3d-design#designing-app-icons-for-light-and-dark-mode) |
 
-想看更有趣的，社区还有月下像素小镇、骑 BMX 耍杂技的狮子和代码绘制的肖像。[社区插画、动画与设计](COMMUNITY.zh-CN.md#插画动画与设计)
+还可以看骑 BMX 的杂技狮子和用 SVG 绘制的肖像。[社区插画、动画与设计](COMMUNITY.zh-CN.md#插画动画与设计)
 
 ## 公开源码
 
 | 作品 | 看点 | 访问与来源 |
 | --- | --- | --- |
-| The Kite That Pulled the Sky | Canvas 画出风筝扯开乌云的过程，配乐由 Web Audio 合成。 | Astra，作者在发布前报告。可本地运行，未找到复用许可证。[源码](https://github.com/PankajKumardev/The-Kite-That-Pulled-the-Sky) · [作者原帖](https://x.com/pankajkumar_dev/status/2117948791496032542) |
+| The Kite That Pulled the Sky | Canvas 画出风筝扯开乌云的过程，配乐由 Web Audio 合成。 | 发布前作品，作者标注 Astra。可本地运行，未找到复用许可证。[源码](https://github.com/PankajKumardev/The-Kite-That-Pulled-the-Sky) · [作者原帖](https://x.com/pankajkumar_dev/status/2117948791496032542) |
 | Ruby Kart | 同人卡丁车游戏，有多条赛道、多种模式和离线 HTML。 | Astra，作者称使用发布前的测试路由。原创代码按 MIT 授权，内嵌的第三方素材另计。作者说明在线版需要 GPT 账号。[仓库](https://github.com/vvvvvvvvvashhh/ruby-kart) · [试玩](https://ruby-kart-eight-circuits.vvvvvvvvvashhh.chatgpt.site/) |
 
 ## 科学与工程
