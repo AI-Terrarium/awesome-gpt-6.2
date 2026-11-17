@@ -1,24 +1,26 @@
-# Awesome GPT-6.2 Demo Atlas
+# Awesome GPT-6.2
 
-Games, interactive 3D worlds, creative tools, and experiments built with GPT-6.2 Astra or Sol. Curated by AI Terrarium.
+**English** · [简体中文](README.zh-CN.md)
 
-[Try live demos](#playable-and-interactive) · [Read the source](#source-available) · [Watch community demos](COMMUNITY.md) · [See CAD and simulations](#beyond-browser-games)
+**Last Updated · 2026-11-18** · Curated by AI Terrarium
 
-## A few places to start
+<a href="https://forest-walks-at-dusk.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/forest-walks/gallery-cover.webp" alt="Forest Walks: an illuminated pine trail at dusk" width="720"></a>
 
-<a href="https://escapement.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/escapement/gallery-cover.webp" alt="Escapement marble run" width="320"></a>
+**Forest Walks · GPT-6.2 Astra.** Follow the sound of a campfire, then switch among three renderings of the same forest without losing your place. [Explore the forest](https://forest-walks-at-dusk.openai.chatgpt.site/) · [Thomas Ricouard’s build notes](https://developers.openai.com/showcase/forest-walks)
 
-**Escapement** · Follow a marble through a mechanical chain reaction. [Build notes by Eric Provencher](https://developers.openai.com/showcase/escapement)
+**45 GPT-6.2 entries** · 21 Astra · 22 Sol · 2 mixed workflows · 6 earlier GPT references listed below.
 
-<a href="https://forest-walks-at-dusk.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/forest-walks/gallery-cover.webp" alt="Forest Walks at dusk" width="320"></a>
+[Creative coding](#creative-coding) · [Playable worlds](#playable-and-interactive) · [Science and engineering](#science-and-engineering) · [Source code](#source-available) · [Community gallery](COMMUNITY.md)
 
-**Forest Walks** · Switch between three versions of the same trail as you walk. [Build notes by Thomas Ricouard](https://developers.openai.com/showcase/forest-walks)
+## Creative coding
 
-<a href="https://terrarium-glasshouse-studio.openai.chatgpt.site/"><img src="https://developers.openai.com/showcase/terrarium-glasshouse-studio/gallery-cover.webp" alt="Terrarium glass garden editor" width="320"></a>
+| Work | Model | What to open |
+| --- | --- | --- |
+| Tide Pool Woodcut | Astra · official | Compare two editable SVGs. One was generated with reference art and a design skill. [Direct generation](https://cdn.openai.com/devhub/docs/codex/svg-3d-design/tide-pool-without-skill.svg) · [Reference-led version](https://cdn.openai.com/devhub/docs/codex/svg-3d-design/tide-pool-with-skill.svg) · [Build notes](https://learn.chatgpt.com/guides/svg-3d-design#creating-vector-illustrations-for-the-web) |
+| Storm to Sunrise | Astra · official | A 2D SVG seascape where wind changes the waves and daylight shifts the palette. [Recorded animation and build notes](https://learn.chatgpt.com/guides/svg-3d-design#animating-svg-curves-and-colors-with-code) |
+| Moth Field Guide Icon | Astra · official | One SVG shape in light and dark palettes, shown at app-store and home-screen sizes. [Design walkthrough](https://learn.chatgpt.com/guides/svg-3d-design#designing-app-icons-for-light-and-dark-mode) |
 
-**Terrarium** · Arrange plants in a glass jar and move the light to see how the scene changes. [Build notes by Katia Gil Guzman](https://developers.openai.com/showcase/terrarium-glasshouse-studio)
-
-Preview images link directly to the works. All three projects are credited on their OpenAI showcase pages as GPT-6.2 Astra.
+The [community creative gallery](COMMUNITY.md#illustration-animation-and-design) includes a moonlit pixel-art town, a bicycle-riding lion that juggles through four seasons, and code-drawn portraits.
 
 ## Source available
 
@@ -44,14 +46,16 @@ These eight OpenAI showcase pages identify **GPT-6.2 Astra** and include build n
 
 Two more interactive works have prelaunch claims and are indexed with their provenance in the community gallery. [The Snow Post and Childhood Rug Racer](COMMUNITY.md#playable).
 
-## Beyond browser games
+## Science and engineering
 
 | Work | What GPT-6.2 did | Evidence |
 | --- | --- | --- |
 | Mountain-road chassis dynamics | Astra created a 3D car model, wrote a Python solver for tires and suspension, and animated the simulation in Blender. | [Official video and write-up](https://openai.com/index/introducing-gpt-6-2-astra-sol/#computer-use-and-interactive-web-design) |
 | RC buggy assembly | Astra modeled the assembly part by part. | [Official showcase](https://openai.com/index/introducing-gpt-6-2-astra-sol/#computer-use-and-interactive-web-design) |
-| Inline-six engine | A mechanical design demonstration using Astra. | [Official showcase](https://openai.com/index/introducing-gpt-6-2-astra-sol/#computer-use-and-interactive-web-design) |
+| Inline-six engine | A part-by-part model of a six-cylinder engine. | [Official showcase](https://openai.com/index/introducing-gpt-6-2-astra-sol/#computer-use-and-interactive-web-design) |
 | Marina City paper lamp | Astra helped turn architectural reference photos into a CAD design and a lamp-builder site. A person assembled the physical lamp. | [Official design video and builder entry](https://openai.com/index/introducing-gpt-6-2-astra-sol/#computer-use-and-interactive-web-design) |
+
+For scientific coding evaluation, see [Terminal-Bench-Science 0.1](https://www.terminal-bench-science.ai/announcement) and the [model-specific runs](https://artificialanalysis.ai/evaluations/terminal-bench-science).
 
 [AA-3D](https://artificialanalysis.ai/evaluations/aa-3d) provides an independent benchmark and explorer for comparing generated Three.js experiences from shared briefs, including pinball, a black hole, and the Colosseum. Check the model shown for each run.
 
@@ -72,7 +76,7 @@ For a model-neutral catalog of procedural geometry, materials, terrain, and anim
 
 - **Live** opens the hosted work. **Public source** points to code you can inspect. A recording is labeled as such. Reuse permissions are stated where a license can be found.
 - **Official** attribution comes from the publisher. **Creator-reported** attribution comes from the maker. **Routing uncertain** marks an inferred model checkpoint. Prelaunch dates are relative to [OpenAI's November 17, 2026 announcement](https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531).
-- **Last link check · 2026-11-18.** The hosted demo pages responded. For each community recording, follow the linked post for the author's claim and any shared prompt.
+- The counts track entries in this catalog. A side-by-side comparison is attributed to the featured GPT-6.2 model. A mixed workflow uses multiple models to produce a result or compares that approach with a single-model run. We review new work daily and update the date when the catalog changes.
 
 ## Contribute
 

@@ -1,10 +1,30 @@
 # Community gallery
 
-[Back to Awesome GPT-6.2 Demo Atlas](README.md)
+[← Awesome GPT-6.2](README.md) · **English** · [简体中文](COMMUNITY.zh-CN.md)
 
-The posts here predate OpenAI's November 17 public announcement. Rows labeled **reported** preserve the creator's model claim. **Routing uncertain** means the creator inferred or questioned the checkpoint. A recording shows the result. A live link opens the work. Where the author describes a simulation, this catalog covers the visual demo.
+Most posts here predate OpenAI's November 17 public announcement. The first section lists a post-release report. Rows labeled **reported** preserve the creator's model claim. **Routing uncertain** means the creator inferred or questioned the checkpoint. A recording shows the result. A live link opens the work. Where the author describes a simulation, this catalog covers the visual demo.
 
-[Playable](#playable) · [3D worlds](#3d-worlds-and-procedural-scenes) · [Motion and simulation](#visual-simulation-and-motion) · [Games and comparisons](#game-prototypes-and-comparisons)
+[After launch](#after-launch) · [Art and animation](#illustration-animation-and-design) · [Playable](#playable) · [3D worlds](#3d-worlds-and-procedural-scenes) · [Motion and simulation](#visual-simulation-and-motion) · [Games and comparisons](#game-prototypes-and-comparisons)
+
+## After launch
+
+| Work | Model | What the author shared |
+| --- | --- | --- |
+| Birth of a Sun · u/GapNew4766 | Astra 6.2 and an Astra + Qwen 3.8 workflow | Two recordings from the same brief for a single HTML short. Compare how the runs handle an eclipse, stellar ignition, and the orbital scene. [Creator’s post](https://www.reddit.com/r/ChatGPTPro/comments/1xyty9y/gpt62_astra_built_the_same_3d_scene_for_162/) |
+
+## Illustration, animation, and design
+
+These recordings and images are creator-attributed or creator-reported comparisons from before the public launch.
+
+| Work | Model | What to see |
+| --- | --- | --- |
+| Moonlit pixel-art town · @SahilPanhotra | Sol | An animated town with cherry blossoms and rippling reflections. The creator says it was made in code. [Recording](https://x.com/SahilPanhotra/status/2119461852426219747) |
+| BMX lion · @SahilPanhotra | Sol | A lion juggles while cycling through four seasons. [Recording](https://x.com/SahilPanhotra/status/2119458278115835912) |
+| Code-drawn portrait pair · @marcthecreatorr | Sol | Two portraits described as drawn entirely in SVG. The post includes the prompt and images. [Original post](https://x.com/marcthecreatorr/status/2119466616693850352) |
+| Painting a portrait · @Ananth7e | Sol | The model paints a portrait of Sam Altman in real time. [Recording](https://x.com/Ananth7e/status/2119482362614677566) |
+| Single-file web design challenge · @Stargridcompass | Sol vs Opus 5.5 | Two takes on a page people would want to screenshot. The creator gives both models the same brief and rules. [Comparison](https://x.com/Stargridcompass/status/2119743048364277820) |
+| Animated model introduction · @GulaGala001 | Astra | A creator's animated concept for announcing GPT-6.2 Astra. [Recording](https://x.com/GulaGala001/status/2116921245296132479) |
+| Fantasy town in pixel art · @notjazii | Astra vs GPT-6 Astra | The same prompt run in Codex and Devin, with different tooling between runs. [Comparison](https://x.com/notjazii/status/2117323835364245744) |
 
 ## Playable
 
