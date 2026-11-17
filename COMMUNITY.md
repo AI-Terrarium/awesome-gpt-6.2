@@ -35,25 +35,12 @@ These recordings and images are creator-attributed or creator-reported compariso
 
 ## 3D worlds and procedural scenes
 
-| Work | What the recorded demo shows | Reported model and original post |
-| --- | --- | --- |
-| Temple and planet · @Mr_Salio | A temple, clouds, and a great planet overhead. Creator reports no external assets. | [Sol](https://x.com/Mr_Salio/status/2119437812604838342) |
-| Village from day to night · @TokenGremlin | A river and cherry blossoms as lighting changes in one Three.js HTML file. | [Sol](https://x.com/TokenGremlin/status/2119409785900552548) |
-| City in one HTML file · @teddyaisi | A Three.js city the author reports is interactive and runs offline. | [Sol](https://x.com/teddyaisi/status/2119503047646908664) |
-| The End of Time · @Khazix0918 | A Three.js environment with mouse interaction. The creator shares the brief. | [Sol, routing reported](https://x.com/Khazix0918/status/2119507514459144677) |
-| Summer to winter · @AnikaCodes | A miniature glass-cased world whose lake freezes and trees turn white. | [Sol](https://x.com/AnikaCodes/status/2119858362318033315) |
-| Sailing ship · @marcthecreatorr | Ship interiors, reflected light, and a day/night cycle. The author reports a single Three.js HTML file with no external 3D assets. | [Sol](https://x.com/marcthecreatorr/status/2119437126194335764) |
-| Kitchen scene · @mirochill | An environmental design test using a brief with more room for layout decisions. | [Sol](https://x.com/mirochill/status/2119886504751194537) |
-| Mathematical lion · @Huoimo | Signed distance fields for the body and hair strands for the mane, per the author. | [Sol](https://x.com/Huoimo/status/2119721282170425584) |
-| Mechanical butterfly · @dragono64v | Gears and articulated wings move in a Three.js prototype. | [Sol](https://x.com/dragono64v/status/2120545025893474415) |
+Browse the full preview galleries on the homepage for [Astra 6.2](README.md#3d--astra-62) and [Sol 6.2](README.md#3d--sol-62).
 
 ## Visual simulation and motion
 
 | Work | What the recorded demo shows | Reported model and original post |
 | --- | --- | --- |
-| Tornado · @Cayden970207 | An interactive Three.js tornado. The creator shares the brief and describes a single run. | [Sol Max, routing reported](https://x.com/Cayden970207/status/2119464819229344113) |
-| Black-hole lensing · @pankajkumar_dev | A glowing accretion disk and a visual treatment of gravitational lensing. | [Sol](https://x.com/pankajkumar_dev/status/2119469657291997366) |
-| Supernova · @pankajkumar_dev | A collapsing star and expanding shock waves rendered from code. | [Sol](https://x.com/pankajkumar_dev/status/2119465155109196254) |
 | Motion test · @BreezeOg1 | Beat-synced transitions, camera movement, and glitch effects. The workflow uses reference footage, character assets, and audio. | [Sol](https://x.com/BreezeOg1/status/2119495488445497489) |
 | Only Four Jobs? · @yuchenz79260729 | A coded short with Swift rendering, a Python-generated score, and local voice. | [Sol, routing uncertain](https://x.com/yuchenz79260729/status/2122391206386925698) |
 
@@ -61,8 +48,6 @@ These recordings and images are creator-attributed or creator-reported compariso
 
 | Work | What the recorded demo shows | Reported model and original post |
 | --- | --- | --- |
-| Semi-open 3D RPG · @karanC_12 | Gameplay footage of a prototype attributed to one prompt. | [Astra](https://x.com/karanC_12/status/2116895719248536032) |
-| Space Pirate · @Thomas_jorgen | A browser game prototype with a seamless universe, crews, trade, and resource management. | [Sol via TesanaAI](https://x.com/Thomas_jorgen/status/2119673965576655211) |
 | Play-rug race comparison · @noclipepe | The same rug and prompt tested for racing mechanics and looks. This is the earlier comparison that informed the mixed game above. | [Sol and Fable 5.5, routing reported](https://x.com/noclipepe/status/2119728047754547326) |
 | Coded animation comparison · @vikktorrrre | A creator's comparison of two results from the same prompt. | [Sol and Opus 5.5, routing reported](https://x.com/vikktorrrre/status/2119473712751649201) |
 
