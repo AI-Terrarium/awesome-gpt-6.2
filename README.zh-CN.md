@@ -10,7 +10,7 @@ GPT-6.2 的 3D 作品、同题评测和公开源码。Terrarium 收录更多模�
 
 <a href="https://github.com/AI-Terrarium/terrarium"><img src="https://raw.githubusercontent.com/AI-Terrarium/terrarium/main/assets/banner.webp" alt="Terrarium 作品库中的 3D 游戏与交互世界" width="768"></a>
 
-45 条 GPT-6.2 案例（Astra 21 · Sol 22 · 混合 2） · [全部 Astra 3D](#3d--astra-62) · [创意编程](#创意编程) · [科学与工程](#科学与工程) · [社区作品](COMMUNITY.zh-CN.md)
+51 条 GPT-6.2 案例（Astra 26 · Sol 23 · 混合 2） · [全部 Astra 3D](#3d--astra-62) · [创意编程](#创意编程) · [科学与工程](#科学与工程) · [社区作品](COMMUNITY.zh-CN.md)
 
 ## 模型表现
 
@@ -19,7 +19,7 @@ GPT-6.2 的 3D 作品、同题评测和公开源码。Terrarium 收录更多模�
 | AA-3D Elo（Max） | **1,318 ± 31** | **1,259 ± 28** |
 | API 输入／输出 | **$8 / $40** | **$2 / $10** |
 
-Elo 来自同题作品的盲测偏好（95% 置信区间）。API 单价按每百万 token 计费。
+AA-3D Elo 来自同题作品的盲测偏好（95% 置信区间）。标准 API 单价来自 OpenAI 2026 年 11 月 17 日的发布公告，按每百万 token 计费；评测中的每题成本另见下方链接。
 
 [同题试玩](https://artificialanalysis.ai/3d/explorer) · [排名](https://artificialanalysis.ai/evaluations/aa-3d#aa-3d-leaderboard) · [每题成本](https://artificialanalysis.ai/evaluations/aa-3d#cost) · [API 定价](https://openai.com/index/introducing-gpt-6-2-astra-sol/#pricing-and-availability)
 
@@ -97,6 +97,17 @@ Elo 来自同题作品的盲测偏好（95% 置信区间）。API 单价按每�
 | 潮池木刻 | Astra · 官方 | 同一题目做了两份可编辑 SVG，其中一份使用参考图和设计技能。[直接生成](https://cdn.openai.com/devhub/docs/codex/svg-3d-design/tide-pool-without-skill.svg) · [参考图版本](https://cdn.openai.com/devhub/docs/codex/svg-3d-design/tide-pool-with-skill.svg) · [制作说明](https://learn.chatgpt.com/guides/svg-3d-design#creating-vector-illustrations-for-the-web) |
 | 从风暴到日出 | Astra · 官方 | 用 JavaScript 改变风速和日光，让 SVG 里的浪高、白沫与色调一起变化。[动画和制作说明](https://learn.chatgpt.com/guides/svg-3d-design#animating-svg-curves-and-colors-with-code) |
 | 飞蛾图鉴图标 | Astra · 官方 | 同一套 SVG 路径，换色后适配深浅主题，并在应用商店和小尺寸桌面图标上预览。[设计过程](https://learn.chatgpt.com/guides/svg-3d-design#designing-app-icons-for-light-and-dark-mode) |
+| Vanitas, Rendered · 阿江 | Astra · 作者报告，发布前作品 | 用自行编写的路径追踪器渲染静物。[提示词和迭代图](https://ajiang.me/en/toolbox/video-426-astra/#vanitas) |
+| Conchae Pelagicae · 阿江 | Astra · 作者报告，发布前作品 | 先为虚构贝壳建立 3D 模型，再转换成铜版画风格的线条。[提示词和迭代图](https://ajiang.me/en/toolbox/video-426-astra/#planche) |
+| 夜车纸雕灯箱 · 阿江 | Astra · 作者报告，发布前作品 | 用代码渲染分层剪影与柔和阴影，呈现纸雕灯箱。[提示词和迭代图](https://ajiang.me/en/toolbox/video-426-astra/#train) |
+| 昼夜城市 · AI/ML API | Astra · 作者报告 | 带车流和昼夜切换的 2D 动画城市。文章提供预览与 HTML 下载；Fable 对照使用了不同客户端。[作者对照文章](https://aimlapi.com/blog/gpt-6-2-astra-vs-claude-fable-5-2) |
+
+阿江将前三件作品的制作日期记为 11 月 11–12 日，早于正式发布，并称未调用图像模型。以下图片来自创作者的实际输出：
+
+<a href="https://ajiang.me/en/toolbox/video-426-astra/#vanitas"><img src="https://ajiang.me/_astro/vanitas.BeYicIc0.webp" alt="Vanitas, Rendered：酒杯、柠檬、牡蛎与怀表" width="160"></a>
+<a href="https://ajiang.me/en/toolbox/video-426-astra/#planche"><img src="https://ajiang.me/_astro/planche-xiv.6IrQU_mf.webp" alt="Conchae Pelagicae：铜版画风格的三枚虚构贝壳" width="160"></a>
+<a href="https://ajiang.me/en/toolbox/video-426-astra/#train"><img src="https://ajiang.me/_astro/night-train.BIf-HctJ.webp" alt="夜车：用代码渲染的分层纸雕灯箱" width="240"></a>
+<a href="https://aimlapi.com/blog/gpt-6-2-astra-vs-claude-fable-5-2"><img src="https://cdn.prod.website-files.com/65b8f36fa600366bc7cf9a67/6afcd933ccd11fb0245e2a85_gpt62-astra-city-test-1200.webp" alt="Astra 的 2D 动画城市，窗户亮灯、车辆通行" width="240"></a>
 
 还可以看骑 BMX 的杂技狮子和用 SVG 绘制的肖像。[社区插画、动画与设计](COMMUNITY.zh-CN.md#插画动画与设计)
 
@@ -115,6 +126,7 @@ Elo 来自同题作品的盲测偏好（95% 置信区间）。API 单价按每�
 | 遥控越野车装配 | Astra 逐件建立装配模型，展示零部件如何装到一起。 | [官方展示](https://openai.com/index/introducing-gpt-6-2-astra-sol/#computer-use-and-interactive-web-design) |
 | 直列六缸发动机 | Astra 按部件构建发动机模型。 | [官方展示](https://openai.com/index/introducing-gpt-6-2-astra-sol/#computer-use-and-interactive-web-design) |
 | Marina City 纸灯 | Astra 把建筑参考照片变成 CAD 设计和纸灯制作网页，实体灯由人组装。 | [设计过程和工具入口](https://openai.com/index/introducing-gpt-6-2-astra-sol/#computer-use-and-interactive-web-design) |
+| PELAGOS 风电控制台 · 阿江 | 展示天气回放、风机告警和维护工单的 3D 运维演示。 | Astra，作者报告的发布前作品。[制作记录](https://ajiang.me/en/toolbox/video-426-astra/#wind) · [在线体验](https://ajiang.me/demos/pelagos/gpt-6-2-astra/) · [各模型同题作品](https://ajiang.me/en/toolbox/pelagos/) |
 
 想看模型如何完成完整的科研任务，可以查 [Terminal-Bench-Science 0.1](https://www.terminal-bench-science.ai/announcement) 和[各模型的评测结果](https://artificialanalysis.ai/evaluations/terminal-bench-science)。
 
@@ -135,7 +147,7 @@ Elo 来自同题作品的盲测偏好（95% 置信区间）。API 单价按每�
 
 - **体验**指可访问的在线作品。**公开源码**指能查看实现，是否可以复用要看各项目的许可证。录像和图片会标明。
 - **官方**指发布方明确标注模型。社区作品按作者说法记录，推测路由的案例会单独注明。[OpenAI 正式发布于 2026 年 11 月 17 日](https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531)。
-- 数字统计的是目录中的条目。并列对照归入主要展示的 GPT-6.2 模型。同一作品由多个模型制作，或对照单模型和多模型两种制作流程，计入混合案例。每天复查，有内容变更才刷新更新日期。
+- 数字按本页和社区作品集中的独立 GPT-6.2 卡片、表格条目统计；预览图和重复链接不另计，一行列出的作品集计一条。并列对照归入主要展示的 GPT-6.2 模型。同一作品由多个模型制作，或对照单模型和多模型两种制作流程，计入混合案例。每天复查，有内容变更才刷新更新日期。
 
 ## 投稿
 

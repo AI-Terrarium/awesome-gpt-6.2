@@ -2,7 +2,7 @@
 
 [← Awesome GPT-6.2](README.md) · **English** · [简体中文](COMMUNITY.zh-CN.md)
 
-Most posts here predate OpenAI's November 17 public announcement. The first section lists a post-release report. Rows labeled **reported** preserve the creator's model claim. **Routing uncertain** means the creator inferred or questioned the checkpoint. A recording shows the result. A live link opens the work. Where the author describes a simulation, this catalog covers the visual demo.
+Most posts here predate OpenAI's November 17 public announcement. The first section lists post-release reports. Rows labeled **reported** preserve the creator's model claim. **Routing uncertain** means the creator inferred or questioned the checkpoint. A recording shows the result. A live link opens the work. Where the author describes a simulation, this catalog covers the visual demo.
 
 [After launch](#after-launch) · [Art and animation](#illustration-animation-and-design) · [Playable](#playable) · [3D worlds](#3d-worlds-and-procedural-scenes) · [Motion and simulation](#visual-simulation-and-motion) · [Games and comparisons](#game-prototypes-and-comparisons)
 
@@ -11,6 +11,7 @@ Most posts here predate OpenAI's November 17 public announcement. The first sect
 | Work | Model | What the author shared |
 | --- | --- | --- |
 | Birth of a Sun · u/GapNew4766 | Astra 6.2 and an Astra + Qwen 3.8 workflow | Two recordings from the same brief for a single HTML short. Compare how the runs handle an eclipse, stellar ignition, and the orbital scene. [Creator’s post](https://www.reddit.com/r/ChatGPTPro/comments/1xyty9y/gpt62_astra_built_the_same_3d_scene_for_162/) |
+| Three.js Eval gallery · u/k1rd | Sol 6.2 High · creator-reported | Browse scenes made from the same fixed prompts used for other models. The author reports that all scenes run, with one repair, but no blind votes or rank at posting. [Gallery](https://threejseval.com/models/gpt-6.2-sol-high) · [Creator's setup and results](https://www.reddit.com/r/OpenAI/comments/1xz037w/gpt62_sol_results_on_a_standard_threejs_eval_16/) |
 
 ## Illustration, animation, and design
 

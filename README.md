@@ -10,7 +10,7 @@ Explore 3D work built with GPT-6.2, compare models on the same brief, and find c
 
 <a href="https://github.com/AI-Terrarium/terrarium"><img src="https://raw.githubusercontent.com/AI-Terrarium/terrarium/main/assets/banner.webp" alt="Terrarium catalog of 3D games and interactive worlds" width="768"></a>
 
-45 GPT-6.2 entries (21 Astra · 22 Sol · 2 mixed) · [All Astra 3D](#3d--astra-62) · [Creative coding](#creative-coding) · [Science and engineering](#science-and-engineering) · [Community gallery](COMMUNITY.md)
+51 GPT-6.2 entries (26 Astra · 23 Sol · 2 mixed) · [All Astra 3D](#3d--astra-62) · [Creative coding](#creative-coding) · [Science and engineering](#science-and-engineering) · [Community gallery](COMMUNITY.md)
 
 ## Model performance
 
@@ -19,7 +19,7 @@ Explore 3D work built with GPT-6.2, compare models on the same brief, and find c
 | AA-3D Elo (Max) | **1,318 ± 31** | **1,259 ± 28** |
 | API input / output | **$8 / $40** | **$2 / $10** |
 
-Elo comes from blind comparisons on the same brief (95% confidence intervals). API rates are per million tokens.
+AA-3D Elo comes from blind comparisons on the same brief (95% confidence intervals). Standard API rates are from OpenAI's November 17, 2026 launch, per million tokens; evaluation cost per task is linked separately below.
 
 [Try the same tasks](https://artificialanalysis.ai/3d/explorer) · [Leaderboard](https://artificialanalysis.ai/evaluations/aa-3d#aa-3d-leaderboard) · [Cost per task](https://artificialanalysis.ai/evaluations/aa-3d#cost) · [API pricing](https://openai.com/index/introducing-gpt-6-2-astra-sol/#pricing-and-availability)
 
@@ -97,6 +97,17 @@ Two more playable works have prelaunch claims, one attributed to Astra and one c
 | Tide Pool Woodcut | Astra · official | Compare two editable SVGs. One was generated with reference art and a design skill. [Direct generation](https://cdn.openai.com/devhub/docs/codex/svg-3d-design/tide-pool-without-skill.svg) · [Reference-led version](https://cdn.openai.com/devhub/docs/codex/svg-3d-design/tide-pool-with-skill.svg) · [Build notes](https://learn.chatgpt.com/guides/svg-3d-design#creating-vector-illustrations-for-the-web) |
 | Storm to Sunrise | Astra · official | A 2D SVG seascape where wind changes the waves and daylight shifts the palette. [Recorded animation and build notes](https://learn.chatgpt.com/guides/svg-3d-design#animating-svg-curves-and-colors-with-code) |
 | Moth Field Guide Icon | Astra · official | One SVG shape in light and dark palettes, shown at app-store and home-screen sizes. [Design walkthrough](https://learn.chatgpt.com/guides/svg-3d-design#designing-app-icons-for-light-and-dark-mode) |
+| Vanitas, Rendered · Ajiang | Astra · creator-reported prelaunch | A procedural still life rendered with a custom path tracer. [Prompt and revision images](https://ajiang.me/en/toolbox/video-426-astra/#vanitas) |
+| Conchae Pelagicae · Ajiang | Astra · creator-reported prelaunch | Invented shells modeled in 3D and converted into copperplate-style linework. [Prompt and revision images](https://ajiang.me/en/toolbox/video-426-astra/#planche) |
+| The Night Train · Ajiang | Astra · creator-reported prelaunch | A code-rendered paper lightbox with layered silhouettes and soft shadows. [Prompt and revision images](https://ajiang.me/en/toolbox/video-426-astra/#train) |
+| City, day and night · AI/ML API | Astra · creator-reported | An animated 2D city with traffic and a day/night switch. The article includes a preview and HTML download; the Fable comparison used a different client. [Creator's comparison](https://aimlapi.com/blog/gpt-6-2-astra-vs-claude-fable-5-2) |
+
+Ajiang dates the three renders November 11–12, before launch, and reports that no image model was used. These are the creator's output images:
+
+<a href="https://ajiang.me/en/toolbox/video-426-astra/#vanitas"><img src="https://ajiang.me/_astro/vanitas.BeYicIc0.webp" alt="Vanitas, Rendered: glass, lemon, oyster and pocket watch" width="160"></a>
+<a href="https://ajiang.me/en/toolbox/video-426-astra/#planche"><img src="https://ajiang.me/_astro/planche-xiv.6IrQU_mf.webp" alt="Conchae Pelagicae: three invented shells in copperplate style" width="160"></a>
+<a href="https://ajiang.me/en/toolbox/video-426-astra/#train"><img src="https://ajiang.me/_astro/night-train.BIf-HctJ.webp" alt="The Night Train: a rendered layered paper lightbox" width="240"></a>
+<a href="https://aimlapi.com/blog/gpt-6-2-astra-vs-claude-fable-5-2"><img src="https://cdn.prod.website-files.com/65b8f36fa600366bc7cf9a67/6afcd933ccd11fb0245e2a85_gpt62-astra-city-test-1200.webp" alt="Astra's animated 2D city with illuminated windows and traffic" width="240"></a>
 
 For a juggling lion on a bicycle and portraits drawn in code, see the [community art gallery](COMMUNITY.md#illustration-animation-and-design).
 
@@ -115,6 +126,7 @@ For a juggling lion on a bicycle and portraits drawn in code, see the [community
 | RC buggy assembly | Astra modeled the assembly part by part. | [Official showcase](https://openai.com/index/introducing-gpt-6-2-astra-sol/#computer-use-and-interactive-web-design) |
 | Inline-six engine | A part-by-part model of a six-cylinder engine. | [Official showcase](https://openai.com/index/introducing-gpt-6-2-astra-sol/#computer-use-and-interactive-web-design) |
 | Marina City paper lamp | Astra helped turn architectural reference photos into a CAD design and a lamp-builder site. A person assembled the physical lamp. | [Official design video and builder entry](https://openai.com/index/introducing-gpt-6-2-astra-sol/#computer-use-and-interactive-web-design) |
+| PELAGOS wind-farm console · Ajiang | A 3D operations demo with weather replay, turbine alerts, and maintenance work orders. | Astra, creator-reported prelaunch. [Build notes](https://ajiang.me/en/toolbox/video-426-astra/#wind) · [Live](https://ajiang.me/demos/pelagos/gpt-6-2-astra/) · [Same-prompt model builds](https://ajiang.me/en/toolbox/pelagos/) |
 
 For scientific coding evaluation, see [Terminal-Bench-Science 0.1](https://www.terminal-bench-science.ai/announcement) and the [model-specific runs](https://artificialanalysis.ai/evaluations/terminal-bench-science).
 
@@ -135,7 +147,7 @@ For a model-neutral catalog of procedural geometry, materials, terrain, and anim
 
 - **Live** opens the hosted work. **Public source** points to code you can inspect. A recording is labeled as such. Reuse permissions are stated where a license can be found.
 - **Official** attribution comes from the publisher. **Creator-reported** attribution comes from the maker. **Routing uncertain** marks an inferred model checkpoint. Prelaunch dates are relative to [OpenAI's November 17, 2026 announcement](https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531).
-- The counts track entries in this catalog. A side-by-side comparison is attributed to the featured GPT-6.2 model. A mixed workflow uses multiple models to produce a result or compares that approach with a single-model run. We review new work daily and update the date when the catalog changes.
+- The counts cover unique GPT-6.2 entries shown as gallery cards or table rows here and in the community gallery. Preview images and repeated links do not add entries; a collection listed in one row counts once. A side-by-side comparison is attributed to the featured GPT-6.2 model. A mixed workflow uses multiple models to produce a result or compares that approach with a single-model run. We review new work daily and update the date when the catalog changes.
 
 ## Contribute
 
