@@ -33,6 +33,9 @@ These recordings and images are creator-attributed or creator-reported compariso
 | --- | --- | --- |
 | The Snow Post · @nelia | Explore a snowy station, change the view, and open a letter. | Astra, routing uncertain. The author said the new version did not appear in their usage history. [Live HTML](https://yukino-snowletter-halt.atonelia.chatgpt.site/) · [Creator's post and prompt](https://linux.do/t/topic/3117060#post_10) |
 | Childhood Rug Racer · @noclipepe | Drive a miniature car on a play rug. | Mixed. Creator reports Sol for race logic and rival AI, and Fable 5.2 for graphics, physics, and integration. [Live](https://noclipepe.pages.dev/rug/) · [Creator post](https://x.com/noclipepe/status/2120107337650155798) |
+| Undertow FM · Thweki | A Chinese-language pixel side-scroller, with a workshop and radio-themed tutorial. | Astra test artifact, uploader-reported; no generation transcript. [Source and port notes](https://github.com/Thweki/undertow-fm) · [Desktop-browser preview](https://page.thweki.com:8443/undertow-fm/). The web port includes later compatibility changes. The uploader’s check did not finish the tutorial; no license for the game’s own code or art was found. |
+
+<a href="https://github.com/Thweki/undertow-fm"><img src="https://raw.githubusercontent.com/Thweki/undertow-fm/main/docs/browser-review/gameplay-movement.png" alt="Undertow FM workshop with the tutorial still in progress" width="480"></a>
 
 ## 3D worlds and procedural scenes
 

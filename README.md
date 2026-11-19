@@ -1,6 +1,6 @@
 # Awesome GPT-6.2
 
-<sub>English · <a href="README.zh-CN.md">简体中文</a> · Last Updated 2026-11-18</sub>
+<sub>English · <a href="README.zh-CN.md">简体中文</a> · Last Updated 2026-11-19</sub>
 
 [**Terrarium on GitHub**](https://github.com/AI-Terrarium/terrarium) · [Browse the gallery](https://terraium.ai/) · [Source archive](https://huggingface.co/datasets/AI-Terrarium/terrarium-open-works)
 
@@ -10,7 +10,7 @@ Explore 3D work built with GPT-6.2, compare models on the same brief, and find c
 
 <a href="https://github.com/AI-Terrarium/terrarium"><img src="https://raw.githubusercontent.com/AI-Terrarium/terrarium/main/assets/banner.webp" alt="Terrarium catalog of 3D games and interactive worlds" width="768"></a>
 
-51 GPT-6.2 entries (26 Astra · 23 Sol · 2 mixed) · [All Astra 3D](#3d--astra-62) · [Creative coding](#creative-coding) · [Science and engineering](#science-and-engineering) · [Community gallery](COMMUNITY.md)
+55 GPT-6.2 entries (29 Astra · 24 Sol · 2 mixed) · [All Astra 3D](#3d--astra-62) · [Creative coding](#creative-coding) · [Science and engineering](#science-and-engineering) · [Community gallery](COMMUNITY.md)
 
 ## Model performance
 
@@ -25,7 +25,7 @@ AA-3D Elo comes from blind comparisons on the same brief (95% confidence interva
 
 ## 3D · Astra 6.2
 
-Start with Forest Walks. Eight official projects have playable builds and notes. The last card is a prelaunch recording.
+Start with Forest Walks. Eight official projects have playable builds and notes. Community additions include a prelaunch RPG recording and a post-launch pinball test.
 
 <table>
 <tr>
@@ -46,6 +46,7 @@ Start with Forest Walks. Eight official projects have playable builds and notes.
 </tr>
 <tr>
 <td width="50%" valign="top"><a href="https://x.com/karanC_12/status/2116895719248536032"><img src="https://pbs.twimg.com/amplify_video_thumb/2116861535880667136/img/MDtD5GVn0iU5sbs4.jpg" alt="Semi-open 3D RPG · @karanC_12" width="228"></a><br><b>Semi-open 3D RPG</b><br><sub>@karanC_12</sub><br>Gameplay footage of a prototype attributed to one prompt.<br>Prelaunch Astra claim<br><a href="https://x.com/karanC_12/status/2116895719248536032">Creator recording</a></td>
+<td width="50%" valign="top"><a href="https://rutinelabo.com/gpt-6-2-astra/"><img src="https://rutinelabo.com/blog/wp-content/uploads/2026/11/gpt-6-2-astra-images6.webp" alt="NIGHT PORT pinball table · RutineLabo" width="228"></a><br><b>NIGHT PORT</b><br><sub>RutineLabo · Astra xhigh, creator-reported</sub><br>A spaceport pinball table from a November 18 same-brief test. The author reports a remaining flipper-speed issue; the models used different clients.<br><a href="https://rutinelabo.com/gpt-6-2-astra/">Recording, preview, and test notes</a></td>
 </tr>
 </table>
 
@@ -101,6 +102,7 @@ Two more playable works have prelaunch claims, one attributed to Astra and one c
 | Conchae Pelagicae · Ajiang | Astra · creator-reported prelaunch | Invented shells modeled in 3D and converted into copperplate-style linework. [Prompt and revision images](https://ajiang.me/en/toolbox/video-426-astra/#planche) |
 | The Night Train · Ajiang | Astra · creator-reported prelaunch | A code-rendered paper lightbox with layered silhouettes and soft shadows. [Prompt and revision images](https://ajiang.me/en/toolbox/video-426-astra/#train) |
 | City, day and night · AI/ML API | Astra · creator-reported | An animated 2D city with traffic and a day/night switch. The article includes a preview and HTML download; the Fable comparison used a different client. [Creator's comparison](https://aimlapi.com/blog/gpt-6-2-astra-vs-claude-fable-5-2) |
+| The Mossbound Giant · Deathdadev | Astra Max · creator-reported | A 42-second anime short drawn in code, with chapter seeking and synthesized sound. The creator shares an Arena trace and notes later font and video repairs. [Live](https://Deathdadev.github.io/mossbound-giant/) · [Source and provenance](https://github.com/Deathdadev/mossbound-giant). No project reuse license was found. |
 
 Ajiang dates the three renders November 11–12, before launch, and reports that no image model was used. These are the creator's output images:
 
@@ -108,6 +110,8 @@ Ajiang dates the three renders November 11–12, before launch, and reports that
 <a href="https://ajiang.me/en/toolbox/video-426-astra/#planche"><img src="https://ajiang.me/_astro/planche-xiv.6IrQU_mf.webp" alt="Conchae Pelagicae: three invented shells in copperplate style" width="160"></a>
 <a href="https://ajiang.me/en/toolbox/video-426-astra/#train"><img src="https://ajiang.me/_astro/night-train.BIf-HctJ.webp" alt="The Night Train: a rendered layered paper lightbox" width="240"></a>
 <a href="https://aimlapi.com/blog/gpt-6-2-astra-vs-claude-fable-5-2"><img src="https://cdn.prod.website-files.com/65b8f36fa600366bc7cf9a67/6afcd933ccd11fb0245e2a85_gpt62-astra-city-test-1200.webp" alt="Astra's animated 2D city with illuminated windows and traffic" width="240"></a>
+
+<a href="https://Deathdadev.github.io/mossbound-giant/"><img src="https://raw.githubusercontent.com/Deathdadev/mossbound-giant/main/verification/lighting.jpg" alt="Code-drawn forest and moss-covered giant" width="330"></a>
 
 For a juggling lion on a bicycle and portraits drawn in code, see the [community art gallery](COMMUNITY.md#illustration-animation-and-design).
 
@@ -117,6 +121,7 @@ For a juggling lion on a bicycle and portraits drawn in code, see the [community
 | --- | --- | --- |
 | The Kite That Pulled the Sky | Interactive Canvas short film with animated storm clouds and a synthesized Web Audio score. | [Public source](https://github.com/PankajKumardev/The-Kite-That-Pulled-the-Sky) · [Creator post](https://x.com/pankajkumar_dev/status/2117948791496032542). Astra, creator-reported prelaunch. Source can be served locally. A reuse license was not located in the repository. |
 | Ruby Kart | A fan-made browser kart racer with multiple courses, modes, and an offline HTML build. | [Repository](https://github.com/vvvvvvvvvashhh/ruby-kart) · [Live](https://ruby-kart-eight-circuits.vvvvvvvvvashhh.chatgpt.site/). Astra, creator-reported prelaunch test route. The repository documents MIT for original code and exclusions for embedded third-party material. The creator says the hosted build requires a GPT account. |
+| Jelly Lab · Yari | A rainbow jelly toy with controls for poking, stretching, cutting, pinning, and heating. | Sol xhigh, creator-reported. [Public source](https://github.com/Yari-tuber/gpt62-vs-opus55-tests/tree/main/02_彩虹果冻/gpt-6.2-sol) · [Shared prompt, other model builds, and method](https://github.com/Yari-tuber/gpt62-vs-opus55-tests). MIT. The author used subscriptions and estimated API-equivalent costs; those figures are not paid API receipts. |
 
 ## Science and engineering
 

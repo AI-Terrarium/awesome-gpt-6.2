@@ -1,6 +1,6 @@
 # Awesome GPT-6.2
 
-<sub><a href="README.md">English</a> · 简体中文 · Last Updated 2026-11-18</sub>
+<sub><a href="README.md">English</a> · 简体中文 · Last Updated 2026-11-19</sub>
 
 [**Terrarium 作品库**](https://github.com/AI-Terrarium/terrarium) · [在线作品](https://terraium.ai/) · [源码档案](https://huggingface.co/datasets/AI-Terrarium/terrarium-open-works)
 
@@ -10,7 +10,7 @@ GPT-6.2 的 3D 作品、同题评测和公开源码。Terrarium 收录更多模�
 
 <a href="https://github.com/AI-Terrarium/terrarium"><img src="https://raw.githubusercontent.com/AI-Terrarium/terrarium/main/assets/banner.webp" alt="Terrarium 作品库中的 3D 游戏与交互世界" width="768"></a>
 
-51 条 GPT-6.2 案例（Astra 26 · Sol 23 · 混合 2） · [全部 Astra 3D](#3d--astra-62) · [创意编程](#创意编程) · [科学与工程](#科学与工程) · [社区作品](COMMUNITY.zh-CN.md)
+55 条 GPT-6.2 案例（Astra 29 · Sol 24 · 混合 2） · [全部 Astra 3D](#3d--astra-62) · [创意编程](#创意编程) · [科学与工程](#科学与工程) · [社区作品](COMMUNITY.zh-CN.md)
 
 ## 模型表现
 
@@ -25,7 +25,7 @@ AA-3D Elo 来自同题作品的盲测偏好（95% 置信区间）。标准 API �
 
 ## 3D · Astra 6.2
 
-先从 Forest Walks 试玩。八款官方作品可直接体验并查看制作笔记，另有一段标明来源的发布前录屏。
+先从 Forest Walks 试玩。八款官方作品可直接体验并查看制作笔记，另有发布前的 RPG 录屏和发布后的弹珠台测试。
 
 <table>
 <tr>
@@ -46,6 +46,7 @@ AA-3D Elo 来自同题作品的盲测偏好（95% 置信区间）。标准 API �
 </tr>
 <tr>
 <td width="50%" valign="top"><a href="https://x.com/karanC_12/status/2116895719248536032"><img src="https://pbs.twimg.com/amplify_video_thumb/2116861535880667136/img/MDtD5GVn0iU5sbs4.jpg" alt="半开放式 3D RPG · @karanC_12" width="228"></a><br><b>半开放式 3D RPG</b><br><sub>@karanC_12</sub><br>据称由单条提示词生成的原型游戏实录。<br>作者称发布前使用 Astra<br><a href="https://x.com/karanC_12/status/2116895719248536032">录屏原帖</a></td>
+<td width="50%" valign="top"><a href="https://rutinelabo.com/gpt-6-2-astra/"><img src="https://rutinelabo.com/blog/wp-content/uploads/2026/11/gpt-6-2-astra-images6.webp" alt="NIGHT PORT 太空港弹珠台 · RutineLabo" width="228"></a><br><b>NIGHT PORT</b><br><sub>RutineLabo · 作者称使用 Astra xhigh</sub><br>11 月 18 日同题测试中的太空港弹珠台。作者指出挡板速度仍有问题；各模型使用的客户端不同。<br><a href="https://rutinelabo.com/gpt-6-2-astra/">录屏、预览与测试记录</a></td>
 </tr>
 </table>
 
@@ -101,6 +102,7 @@ AA-3D Elo 来自同题作品的盲测偏好（95% 置信区间）。标准 API �
 | Conchae Pelagicae · 阿江 | Astra · 作者报告，发布前作品 | 先为虚构贝壳建立 3D 模型，再转换成铜版画风格的线条。[提示词和迭代图](https://ajiang.me/en/toolbox/video-426-astra/#planche) |
 | 夜车纸雕灯箱 · 阿江 | Astra · 作者报告，发布前作品 | 用代码渲染分层剪影与柔和阴影，呈现纸雕灯箱。[提示词和迭代图](https://ajiang.me/en/toolbox/video-426-astra/#train) |
 | 昼夜城市 · AI/ML API | Astra · 作者报告 | 带车流和昼夜切换的 2D 动画城市。文章提供预览与 HTML 下载；Fable 对照使用了不同客户端。[作者对照文章](https://aimlapi.com/blog/gpt-6-2-astra-vs-claude-fable-5-2) |
+| The Mossbound Giant · Deathdadev | Astra Max · 作者自述 | 用代码绘制的 42 秒动画短片，可按章节跳转，配有合成音轨。作者公开了 Arena 记录，并注明后续修复了字体和视频资源。[观看](https://Deathdadev.github.io/mossbound-giant/) · [源码与来源说明](https://github.com/Deathdadev/mossbound-giant)。未找到项目自身的复用许可。 |
 
 阿江将前三件作品的制作日期记为 11 月 11–12 日，早于正式发布，并称未调用图像模型。以下图片来自创作者的实际输出：
 
@@ -108,6 +110,8 @@ AA-3D Elo 来自同题作品的盲测偏好（95% 置信区间）。标准 API �
 <a href="https://ajiang.me/en/toolbox/video-426-astra/#planche"><img src="https://ajiang.me/_astro/planche-xiv.6IrQU_mf.webp" alt="Conchae Pelagicae：铜版画风格的三枚虚构贝壳" width="160"></a>
 <a href="https://ajiang.me/en/toolbox/video-426-astra/#train"><img src="https://ajiang.me/_astro/night-train.BIf-HctJ.webp" alt="夜车：用代码渲染的分层纸雕灯箱" width="240"></a>
 <a href="https://aimlapi.com/blog/gpt-6-2-astra-vs-claude-fable-5-2"><img src="https://cdn.prod.website-files.com/65b8f36fa600366bc7cf9a67/6afcd933ccd11fb0245e2a85_gpt62-astra-city-test-1200.webp" alt="Astra 的 2D 动画城市，窗户亮灯、车辆通行" width="240"></a>
+
+<a href="https://Deathdadev.github.io/mossbound-giant/"><img src="https://raw.githubusercontent.com/Deathdadev/mossbound-giant/main/verification/lighting.jpg" alt="代码绘制的森林与苔藓巨人" width="330"></a>
 
 还可以看骑 BMX 的杂技狮子和用 SVG 绘制的肖像。[社区插画、动画与设计](COMMUNITY.zh-CN.md#插画动画与设计)
 
@@ -117,6 +121,7 @@ AA-3D Elo 来自同题作品的盲测偏好（95% 置信区间）。标准 API �
 | --- | --- | --- |
 | The Kite That Pulled the Sky | Canvas 画出风筝扯开乌云的过程，配乐由 Web Audio 合成。 | 发布前作品，作者标注 Astra。可本地运行，未找到复用许可证。[源码](https://github.com/PankajKumardev/The-Kite-That-Pulled-the-Sky) · [作者原帖](https://x.com/pankajkumar_dev/status/2117948791496032542) |
 | Ruby Kart | 同人卡丁车游戏，有多条赛道、多种模式和离线 HTML。 | Astra，作者称使用发布前的测试路由。原创代码按 MIT 授权，内嵌的第三方素材另计。作者说明在线版需要 GPT 账号。[仓库](https://github.com/vvvvvvvvvashhh/ruby-kart) · [试玩](https://ruby-kart-eight-circuits.vvvvvvvvvashhh.chatgpt.site/) |
+| 果冻实验室 · 亚里 | 彩虹果冻玩具，提供戳、拉扯、切开、扎钉子和加热的操作。 | 作者称使用 Sol xhigh。[公开源码](https://github.com/Yari-tuber/gpt62-vs-opus55-tests/tree/main/02_彩虹果冻/gpt-6.2-sol) · [共同提示词、其他模型版本与方法](https://github.com/Yari-tuber/gpt62-vs-opus55-tests)。MIT 许可。作者使用订阅，按 API 单价折算成本，所列金额并非实际 API 账单。 |
 
 ## 科学与工程
 

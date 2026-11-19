@@ -33,6 +33,9 @@
 | --- | --- | --- |
 | 雪中邮局 · @nelia | 探索雪中的车站、切换视角并打开一封信。 | Astra，模型路由不确定。作者表示，使用记录中没有显示新版本。[在线 HTML](https://yukino-snowletter-halt.atonelia.chatgpt.site/) · [创作者帖子与提示词](https://linux.do/t/topic/3117060#post_10) |
 | 童年地毯赛车 · @noclipepe | 驾驶迷你赛车，在游戏地毯上驰骋。 | 混合使用。创作者称赛车逻辑和对手 AI 使用 Sol，画面、物理效果与集成使用 Fable 5.2。[在线体验](https://noclipepe.pages.dev/rug/) · [创作者帖子](https://x.com/noclipepe/status/2120107337650155798) |
+| 逆潮电台 · Thweki | 中文像素横版游戏，设有修理铺和调频教程。 | 上传者称为 Astra 测试产物，未提供生成对话。[源码与移植说明](https://github.com/Thweki/undertow-fm) · [桌面浏览器预览](https://page.thweki.com:8443/undertow-fm/)。网页版含后续兼容性改动；上传者的检查未完成教程。未找到游戏自身代码或美术的复用许可。 |
+
+<a href="https://github.com/Thweki/undertow-fm"><img src="https://raw.githubusercontent.com/Thweki/undertow-fm/main/docs/browser-review/gameplay-movement.png" alt="逆潮电台的修理铺与未完成的教程" width="480"></a>
 
 ## 3D 世界与程序化场景
 
