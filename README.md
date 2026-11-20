@@ -1,6 +1,6 @@
 # Awesome GPT-6.2
 
-<sub>English · <a href="README.zh-CN.md">简体中文</a> · Last Updated 2026-11-19</sub>
+<sub>English · <a href="README.zh-CN.md">简体中文</a> · Last Updated 2026-11-20</sub>
 
 [**Terrarium on GitHub**](https://github.com/AI-Terrarium/terrarium) · [Browse the gallery](https://terraium.ai/) · [Source archive](https://huggingface.co/datasets/AI-Terrarium/terrarium-open-works)
 
@@ -10,7 +10,7 @@ Explore 3D work built with GPT-6.2, compare models on the same brief, and find c
 
 <a href="https://github.com/AI-Terrarium/terrarium"><img src="https://raw.githubusercontent.com/AI-Terrarium/terrarium/main/assets/banner.webp" alt="Terrarium catalog of 3D games and interactive worlds" width="768"></a>
 
-55 GPT-6.2 entries (29 Astra · 24 Sol · 2 mixed) · [All Astra 3D](#3d--astra-62) · [Creative coding](#creative-coding) · [Science and engineering](#science-and-engineering) · [Community gallery](COMMUNITY.md)
+57 GPT-6.2 entries (30 Astra · 24 Sol · 3 mixed) · [All Astra 3D](#3d--astra-62) · [Creative coding](#creative-coding) · [Science and engineering](#science-and-engineering) · [Community gallery](COMMUNITY.md)
 
 ## Model performance
 
@@ -132,6 +132,7 @@ For a juggling lion on a bicycle and portraits drawn in code, see the [community
 | Inline-six engine | A part-by-part model of a six-cylinder engine. | [Official showcase](https://openai.com/index/introducing-gpt-6-2-astra-sol/#computer-use-and-interactive-web-design) |
 | Marina City paper lamp | Astra helped turn architectural reference photos into a CAD design and a lamp-builder site. A person assembled the physical lamp. | [Official design video and builder entry](https://openai.com/index/introducing-gpt-6-2-astra-sol/#computer-use-and-interactive-web-design) |
 | PELAGOS wind-farm console · Ajiang | A 3D operations demo with weather replay, turbine alerts, and maintenance work orders. | Astra, creator-reported prelaunch. [Build notes](https://ajiang.me/en/toolbox/video-426-astra/#wind) · [Live](https://ajiang.me/demos/pelagos/gpt-6-2-astra/) · [Same-prompt model builds](https://ajiang.me/en/toolbox/pelagos/) |
+| Verdant garden simulator · Ramanpal Singh | Sol 6.2 on Ultra with image-generated textures and illustrations, creator-reported mixed workflow. Plant, water, and prune a garden with light competition, pollination, and SVG ecology charts. | [November 19 recording, prompt, and tests](https://promptslove.com/blog/gpt-6-2-sol-review/). The author reports a plant cap and a preplanted starting layout; time-lapse export was not verified in their test browser. |
 
 For scientific coding evaluation, see [Terminal-Bench-Science 0.1](https://www.terminal-bench-science.ai/announcement) and the [model-specific runs](https://artificialanalysis.ai/evaluations/terminal-bench-science).
 
