@@ -1,6 +1,6 @@
 # Awesome GPT-6.2
 
-<sub>English · <a href="README.zh-CN.md">简体中文</a> · Last Updated 2026-11-21</sub>
+<sub>English · <a href="README.zh-CN.md">简体中文</a> · Last Updated 2026-11-22</sub>
 
 [**Terrarium on GitHub**](https://github.com/AI-Terrarium/terrarium) · [Browse the gallery](https://terraium.ai/) · [Source archive](https://huggingface.co/datasets/AI-Terrarium/terrarium-open-works)
 
@@ -10,7 +10,7 @@ Explore 3D work built with GPT-6.2, compare models on the same brief, and find c
 
 <a href="https://github.com/AI-Terrarium/terrarium"><img src="https://raw.githubusercontent.com/AI-Terrarium/terrarium/main/assets/banner.webp" alt="Terrarium catalog of 3D games and interactive worlds" width="768"></a>
 
-58 GPT-6.2 entries (31 Astra · 24 Sol · 3 mixed) · [All Astra 3D](#3d--astra-62) · [Creative coding](#creative-coding) · [Science and engineering](#science-and-engineering) · [Community gallery](COMMUNITY.md)
+61 GPT-6.2 entries (33 Astra · 24 Sol · 4 mixed) · [All Astra 3D](#3d--astra-62) · [Creative coding](#creative-coding) · [Science and engineering](#science-and-engineering) · [Community gallery](COMMUNITY.md)
 
 ## Model performance
 

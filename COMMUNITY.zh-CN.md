@@ -14,6 +14,9 @@
 | Three.js Eval 作品集 · u/k1rd | Sol 6.2 High · 作者报告 | 与其他模型使用同一组固定提示词，可以逐个打开场景。作者称全部场景均可运行，其中一项经过修复；发帖时尚无盲评票数或排名。[作品集](https://threejseval.com/models/gpt-6.2-sol-high) · [作者的配置与结果](https://www.reddit.com/r/OpenAI/comments/1xz037w/gpt62_sol_results_on_a_standard_threejs_eval_16/) |
 | Hearth 家庭事务面板 · Amanda Caswell | Astra 6.2 · 作者报告 | 将日历、餐单、购物清单和家务放在同一个面板。[11 月 18 日提示词与截图](https://www.tomsguide.com/ai/chatgpt/i-tested-chatgpts-new-gpt-6-2-astra-with-one-prompt-and-built-a-website-id-actually-use)。作者称改动可保存；文中未提供公开试玩或源码。 |
 | 三项视觉编程对照 · u/Fresh-Resolution182 | Astra 6.2 · 作者报告 | 一帖对照了 Three.js 平台跳跃游戏、带油门滑块和实时读数的交互式喷气发动机课程，以及一段 3D 动态作品。作者报告三次运行费用分别为 $0.13、$0.14 和 $0.09；这是作者报告的单次运行成本，不是 API 标准单价。[作者原帖、视频、提示词与运行表](https://www.reddit.com/r/ArtificialInteligence/comments/1y16hqw/gpt62_astra_vs_claude_fable_52_on_3_real_creator/) |
+| 代码绘制的咖啡因动画 · u/Fresh-Resolution182 | Astra 6.2 对比 Fable 5.2 · 作者报告 | 定时、可逐帧控制的 HTML 动画，解释咖啡因如何阻断腺苷受体。作者报告 Astra 单次运行成本为 $0.12；这是运行成本，不是 API 标准单价。[作者对照、提示词与录屏](https://www.reddit.com/r/ArtificialInteligence/comments/1y058uq/fable_52_vs_gpt62_astra_wrote_the_same_explainer/) |
+| 2.5D 无尽森林游戏 · u/FilipeDM | 混合流程：Astra 6.2 与 GPT Image 2.6 · 作者报告 | Astra 将作者用图像模型生成的精灵图组装成可玩的横向视角游戏。帖子称地图可以一直探索，并注明尚未加入敌人。[作者原帖与录屏](https://www.reddit.com/r/aigamedev/comments/1y0crgm/gpt_image_26_gpt_astra_62/) |
+| 100 个 HTML 视觉实验 · MiaAI Lab | Astra 6.2 · 仓库自述 | 可搜索的独立网页作品集，每项附提示词和渲染预览。[公开仓库与作品集](https://github.com/MiaAI-Lab/GPT-6.2-Astra-100-HTML-Files) · [作者制作的缩略图](https://github.com/MiaAI-Lab/GPT-6.2-Astra-100-HTML-Files/tree/main/thumbs) |
 
 <a href="https://www.tomsguide.com/ai/chatgpt/i-tested-chatgpts-new-gpt-6-2-astra-with-one-prompt-and-built-a-website-id-actually-use"><img src="https://cdn.mos.cms.futurecdn.net/uZ7a46fApaQChpifaFz9k7.jpg" alt="Amanda Caswell 实测中的 Hearth 家庭事务面板" width="480"></a>
 

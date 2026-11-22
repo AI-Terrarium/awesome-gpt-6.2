@@ -1,6 +1,6 @@
 # Awesome GPT-6.2
 
-<sub><a href="README.md">English</a> · 简体中文 · Last Updated 2026-11-21</sub>
+<sub><a href="README.md">English</a> · 简体中文 · Last Updated 2026-11-22</sub>
 
 [**Terrarium 作品库**](https://github.com/AI-Terrarium/terrarium) · [在线作品](https://terraium.ai/) · [源码档案](https://huggingface.co/datasets/AI-Terrarium/terrarium-open-works)
 
@@ -10,7 +10,7 @@ GPT-6.2 的 3D 作品、同题评测和公开源码。Terrarium 收录更多模�
 
 <a href="https://github.com/AI-Terrarium/terrarium"><img src="https://raw.githubusercontent.com/AI-Terrarium/terrarium/main/assets/banner.webp" alt="Terrarium 作品库中的 3D 游戏与交互世界" width="768"></a>
 
-58 条 GPT-6.2 案例（Astra 31 · Sol 24 · 混合 3） · [全部 Astra 3D](#3d--astra-62) · [创意编程](#创意编程) · [科学与工程](#科学与工程) · [社区作品](COMMUNITY.zh-CN.md)
+61 条 GPT-6.2 案例（Astra 33 · Sol 24 · 混合 4） · [全部 Astra 3D](#3d--astra-62) · [创意编程](#创意编程) · [科学与工程](#科学与工程) · [社区作品](COMMUNITY.zh-CN.md)
 
 ## 模型表现
 
