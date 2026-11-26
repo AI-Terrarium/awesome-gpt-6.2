@@ -17,8 +17,12 @@
 | 代码绘制的咖啡因动画 · u/Fresh-Resolution182 | Astra 6.2 对比 Fable 5.2 · 作者报告 | 定时、可逐帧控制的 HTML 动画，解释咖啡因如何阻断腺苷受体。作者报告 Astra 单次运行成本为 $0.12；这是运行成本，不是 API 标准单价。[作者对照、提示词与录屏](https://www.reddit.com/r/ArtificialInteligence/comments/1y058uq/fable_52_vs_gpt62_astra_wrote_the_same_explainer/) |
 | 2.5D 无尽森林游戏 · u/FilipeDM | 混合流程：Astra 6.2 与 GPT Image 2.6 · 作者报告 | Astra 将作者用图像模型生成的精灵图组装成可玩的横向视角游戏。帖子称地图可以一直探索，并注明尚未加入敌人。[作者原帖与录屏](https://www.reddit.com/r/aigamedev/comments/1y0crgm/gpt_image_26_gpt_astra_62/) |
 | 100 个 HTML 视觉实验 · MiaAI Lab | Astra 6.2 · 仓库自述 | 可搜索的独立网页作品集，每项附提示词和渲染预览。[公开仓库与作品集](https://github.com/MiaAI-Lab/GPT-6.2-Astra-100-HTML-Files) · [作者制作的缩略图](https://github.com/MiaAI-Lab/GPT-6.2-Astra-100-HTML-Files/tree/main/thumbs) |
+| Limon 动画对照 · Avenox | 混合流程：Astra 6.2 Extra High，分别使用纯代码和 ImageGen · 作者报告 | 11 月 17 日直播中的两段 30 秒无声工坊故事：一段采用 SVG/SMIL，另一段在 Canvas 中编排六张生成图。[制作说明](https://github.com/avenoxai/astra-notlari/tree/main/testler/03-limon-karsilastirmasi) · [SVG 源码](https://github.com/avenoxai/astra-notlari/blob/main/yayin-2026-11-17/09-limon-svg-kod/sonuc/limon.svg)。图像生成版本仅提供截图。 |
+| Necrolord 骷髅动画 · u/AC-Daniel | Codex 中的 Astra 6.2 · 作者报告 | 基于现有 Unity 骷髅预制体改进动画，以约 20 个精灵图切片和手工动画为上下文。[作者录屏与讨论](https://www.reddit.com/r/codex/comments/1y3dzx9/i_was_kind_of_disapointed_with_gpt_astra_62_but/)。作者称其他预制体的效果较差；模型归因仅指这次动画改进，不代表整款游戏。 |
 
 <a href="https://www.tomsguide.com/ai/chatgpt/i-tested-chatgpts-new-gpt-6-2-astra-with-one-prompt-and-built-a-website-id-actually-use"><img src="https://cdn.mos.cms.futurecdn.net/uZ7a46fApaQChpifaFz9k7.jpg" alt="Amanda Caswell 实测中的 Hearth 家庭事务面板" width="480"></a>
+
+<a href="https://github.com/avenoxai/astra-notlari/tree/main/testler/03-limon-karsilastirmasi"><img src="https://raw.githubusercontent.com/avenoxai/astra-notlari/main/yayin-2026-11-17/09-limon-svg-kod/sonuc/kare-22sn.jpg" alt="作者录屏中 Limon SVG 动画第 22 秒的画面" width="480"></a>
 
 ## 插画、动画与设计
 

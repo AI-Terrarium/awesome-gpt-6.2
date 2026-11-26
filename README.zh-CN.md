@@ -1,6 +1,6 @@
 # Awesome GPT-6.2
 
-<sub><a href="README.md">English</a> · 简体中文 · Last Updated 2026-11-22</sub>
+<sub><a href="README.md">English</a> · 简体中文 · Last Updated 2026-11-26</sub>
 
 [**Terrarium 作品库**](https://github.com/AI-Terrarium/terrarium) · [在线作品](https://terraium.ai/) · [源码档案](https://huggingface.co/datasets/AI-Terrarium/terrarium-open-works)
 
@@ -10,7 +10,7 @@ GPT-6.2 的 3D 作品、同题评测和公开源码。Terrarium 收录更多模�
 
 <a href="https://github.com/AI-Terrarium/terrarium"><img src="https://raw.githubusercontent.com/AI-Terrarium/terrarium/main/assets/banner.webp" alt="Terrarium 作品库中的 3D 游戏与交互世界" width="768"></a>
 
-61 条 GPT-6.2 案例（Astra 33 · Sol 24 · 混合 4） · [全部 Astra 3D](#3d--astra-62) · [创意编程](#创意编程) · [科学与工程](#科学与工程) · [社区作品](COMMUNITY.zh-CN.md)
+64 条 GPT-6.2 案例（Astra 34 · Sol 25 · 混合 5） · [全部 Astra 3D](#3d--astra-62) · [创意编程](#创意编程) · [科学与工程](#科学与工程) · [社区作品](COMMUNITY.zh-CN.md)
 
 ## 模型表现
 
@@ -133,6 +133,9 @@ AA-3D Elo 来自同题作品的盲测偏好（95% 置信区间）。标准 API �
 | Marina City 纸灯 | Astra 把建筑参考照片变成 CAD 设计和纸灯制作网页，实体灯由人组装。 | [设计过程和工具入口](https://openai.com/index/introducing-gpt-6-2-astra-sol/#computer-use-and-interactive-web-design) |
 | PELAGOS 风电控制台 · 阿江 | 展示天气回放、风机告警和维护工单的 3D 运维演示。 | Astra，作者报告的发布前作品。[制作记录](https://ajiang.me/en/toolbox/video-426-astra/#wind) · [在线体验](https://ajiang.me/demos/pelagos/gpt-6-2-astra/) · [各模型同题作品](https://ajiang.me/en/toolbox/pelagos/) |
 | Verdant 花园模拟器 · Ramanpal Singh | 作者称使用 Sol 6.2 Ultra 编程，并用图像生成工具制作纹理与插画，计为混合流程。可种植、浇水和修剪，观察光照竞争、授粉及 SVG 生态图表。 | [11 月 19 日录屏、提示词与测试](https://promptslove.com/blog/gpt-6-2-sol-review/)。作者指出植物数量有上限，每次都从预设树木开始；测试浏览器中未能验证延时录像导出。 |
+| Eksen 地球模拟器 · Avenox | 旋转地球，探索季节、日照和延伸至 2100 年的三种排放情景。气候计算采用简化的教学模型。 | Sol 6.2 Medium，Ultra Fast · 作者报告的 11 月 18 日测试。[提示词、截图与说明](https://github.com/avenoxai/astra-notlari/tree/main/testler/04-sol-ultrafast) · [单文件 HTML 源码](https://github.com/avenoxai/astra-notlari/blob/main/testler/04-sol-ultrafast/sonuc/eksen-dunya-simulasyonu.html)。 |
+
+<a href="https://github.com/avenoxai/astra-notlari/tree/main/testler/04-sol-ultrafast"><img src="https://raw.githubusercontent.com/avenoxai/astra-notlari/main/testler/04-sol-ultrafast/sonuc/dunya-simulasyonu-klip-son.jpg" alt="Eksen 地球、日照控制与教学气候情景" width="480"></a>
 
 想看模型如何完成完整的科研任务，可以查 [Terminal-Bench-Science 0.1](https://www.terminal-bench-science.ai/announcement) 和[各模型的评测结果](https://artificialanalysis.ai/evaluations/terminal-bench-science)。
 

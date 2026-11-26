@@ -1,6 +1,6 @@
 # Awesome GPT-6.2
 
-<sub>English · <a href="README.zh-CN.md">简体中文</a> · Last Updated 2026-11-22</sub>
+<sub>English · <a href="README.zh-CN.md">简体中文</a> · Last Updated 2026-11-26</sub>
 
 [**Terrarium on GitHub**](https://github.com/AI-Terrarium/terrarium) · [Browse the gallery](https://terraium.ai/) · [Source archive](https://huggingface.co/datasets/AI-Terrarium/terrarium-open-works)
 
@@ -10,7 +10,7 @@ Explore 3D work built with GPT-6.2, compare models on the same brief, and find c
 
 <a href="https://github.com/AI-Terrarium/terrarium"><img src="https://raw.githubusercontent.com/AI-Terrarium/terrarium/main/assets/banner.webp" alt="Terrarium catalog of 3D games and interactive worlds" width="768"></a>
 
-61 GPT-6.2 entries (33 Astra · 24 Sol · 4 mixed) · [All Astra 3D](#3d--astra-62) · [Creative coding](#creative-coding) · [Science and engineering](#science-and-engineering) · [Community gallery](COMMUNITY.md)
+64 GPT-6.2 entries (34 Astra · 25 Sol · 5 mixed) · [All Astra 3D](#3d--astra-62) · [Creative coding](#creative-coding) · [Science and engineering](#science-and-engineering) · [Community gallery](COMMUNITY.md)
 
 ## Model performance
 
@@ -133,6 +133,9 @@ For a juggling lion on a bicycle and portraits drawn in code, see the [community
 | Marina City paper lamp | Astra helped turn architectural reference photos into a CAD design and a lamp-builder site. A person assembled the physical lamp. | [Official design video and builder entry](https://openai.com/index/introducing-gpt-6-2-astra-sol/#computer-use-and-interactive-web-design) |
 | PELAGOS wind-farm console · Ajiang | A 3D operations demo with weather replay, turbine alerts, and maintenance work orders. | Astra, creator-reported prelaunch. [Build notes](https://ajiang.me/en/toolbox/video-426-astra/#wind) · [Live](https://ajiang.me/demos/pelagos/gpt-6-2-astra/) · [Same-prompt model builds](https://ajiang.me/en/toolbox/pelagos/) |
 | Verdant garden simulator · Ramanpal Singh | Sol 6.2 on Ultra with image-generated textures and illustrations, creator-reported mixed workflow. Plant, water, and prune a garden with light competition, pollination, and SVG ecology charts. | [November 19 recording, prompt, and tests](https://promptslove.com/blog/gpt-6-2-sol-review/). The author reports a plant cap and a preplanted starting layout; time-lapse export was not verified in their test browser. |
+| Eksen Earth simulator · Avenox | Rotate a globe and explore seasons, sunlight, and three emissions scenarios through 2100. The climate calculations are a simplified educational model. | Sol 6.2 Medium, Ultra Fast · creator-reported November 18 test. [Prompt, screenshot, and notes](https://github.com/avenoxai/astra-notlari/tree/main/testler/04-sol-ultrafast) · [Single-file HTML source](https://github.com/avenoxai/astra-notlari/blob/main/testler/04-sol-ultrafast/sonuc/eksen-dunya-simulasyonu.html). |
+
+<a href="https://github.com/avenoxai/astra-notlari/tree/main/testler/04-sol-ultrafast"><img src="https://raw.githubusercontent.com/avenoxai/astra-notlari/main/testler/04-sol-ultrafast/sonuc/dunya-simulasyonu-klip-son.jpg" alt="Eksen globe, sunlight controls, and educational climate scenarios" width="480"></a>
 
 For scientific coding evaluation, see [Terminal-Bench-Science 0.1](https://www.terminal-bench-science.ai/announcement) and the [model-specific runs](https://artificialanalysis.ai/evaluations/terminal-bench-science).
 
