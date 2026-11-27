@@ -1,6 +1,6 @@
 # Awesome GPT-6.2
 
-<sub>English · <a href="README.zh-CN.md">简体中文</a> · Last Updated 2026-11-26</sub>
+<sub>English · <a href="README.zh-CN.md">简体中文</a> · Last Updated 2026-11-27</sub>
 
 [**Terrarium on GitHub**](https://github.com/AI-Terrarium/terrarium) · [Browse the gallery](https://terraium.ai/) · [Source archive](https://huggingface.co/datasets/AI-Terrarium/terrarium-open-works)
 
@@ -10,7 +10,7 @@ Explore 3D work built with GPT-6.2, compare models on the same brief, and find c
 
 <a href="https://github.com/AI-Terrarium/terrarium"><img src="https://raw.githubusercontent.com/AI-Terrarium/terrarium/main/assets/banner.webp" alt="Terrarium catalog of 3D games and interactive worlds" width="768"></a>
 
-64 GPT-6.2 entries (34 Astra · 25 Sol · 5 mixed) · [All Astra 3D](#3d--astra-62) · [Creative coding](#creative-coding) · [Science and engineering](#science-and-engineering) · [Community gallery](COMMUNITY.md)
+66 GPT-6.2 entries (34 Astra · 25 Sol · 7 mixed) · [All Astra 3D](#3d--astra-62) · [Creative coding](#creative-coding) · [Science and engineering](#science-and-engineering) · [Community gallery](COMMUNITY.md)
 
 ## Model performance
 
@@ -122,6 +122,9 @@ For a juggling lion on a bicycle and portraits drawn in code, see the [community
 | The Kite That Pulled the Sky | Interactive Canvas short film with animated storm clouds and a synthesized Web Audio score. | [Public source](https://github.com/PankajKumardev/The-Kite-That-Pulled-the-Sky) · [Creator post](https://x.com/pankajkumar_dev/status/2117948791496032542). Astra, creator-reported prelaunch. Source can be served locally. A reuse license was not located in the repository. |
 | Ruby Kart | A fan-made browser kart racer with multiple courses, modes, and an offline HTML build. | [Repository](https://github.com/vvvvvvvvvashhh/ruby-kart) · [Live](https://ruby-kart-eight-circuits.vvvvvvvvvashhh.chatgpt.site/). Astra, creator-reported prelaunch test route. The repository documents MIT for original code and exclusions for embedded third-party material. The creator says the hosted build requires a GPT account. |
 | Jelly Lab · Yari | A rainbow jelly toy with controls for poking, stretching, cutting, pinning, and heating. | Sol xhigh, creator-reported. [Public source](https://github.com/Yari-tuber/gpt62-vs-opus55-tests/tree/main/02_彩虹果冻/gpt-6.2-sol) · [Shared prompt, other model builds, and method](https://github.com/Yari-tuber/gpt62-vs-opus55-tests). MIT. The author used subscriptions and estimated API-equivalent costs; those figures are not paid API receipts. |
+| Dragon flight sim · zhzh2001 | A playable C++20 flight and combat game. Its AI-assisted workflow spans Claude, Codex, and Hunyuan 3D; dated project notes specifically credit GPT-6.2 Astra in Codex with creature rigging and repairs. | Mixed workflow, creator-documented. [Project and rendered clips](https://github.com/zhzh2001/dragon) · [Astra model-generation notes](https://github.com/zhzh2001/dragon/blob/main/docs/MODEL_GENERATION.md). The project says the dragon models were generated with Hunyuan 3D; Astra is credited for selected rigging and repair jobs, not the whole game. |
+
+<a href="https://github.com/zhzh2001/dragon"><img src="https://raw.githubusercontent.com/zhzh2001/dragon/main/docs/media/roster.jpg" alt="Six dragon species shown in the project's flight simulator" width="640"></a>
 
 ## Science and engineering
 

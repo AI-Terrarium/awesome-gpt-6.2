@@ -1,6 +1,6 @@
 # Awesome GPT-6.2
 
-<sub><a href="README.md">English</a> · 简体中文 · Last Updated 2026-11-26</sub>
+<sub><a href="README.md">English</a> · 简体中文 · Last Updated 2026-11-27</sub>
 
 [**Terrarium 作品库**](https://github.com/AI-Terrarium/terrarium) · [在线作品](https://terraium.ai/) · [源码档案](https://huggingface.co/datasets/AI-Terrarium/terrarium-open-works)
 
@@ -10,7 +10,7 @@ GPT-6.2 的 3D 作品、同题评测和公开源码。Terrarium 收录更多模�
 
 <a href="https://github.com/AI-Terrarium/terrarium"><img src="https://raw.githubusercontent.com/AI-Terrarium/terrarium/main/assets/banner.webp" alt="Terrarium 作品库中的 3D 游戏与交互世界" width="768"></a>
 
-64 条 GPT-6.2 案例（Astra 34 · Sol 25 · 混合 5） · [全部 Astra 3D](#3d--astra-62) · [创意编程](#创意编程) · [科学与工程](#科学与工程) · [社区作品](COMMUNITY.zh-CN.md)
+66 条 GPT-6.2 案例（Astra 34 · Sol 25 · 混合 7） · [全部 Astra 3D](#3d--astra-62) · [创意编程](#创意编程) · [科学与工程](#科学与工程) · [社区作品](COMMUNITY.zh-CN.md)
 
 ## 模型表现
 
@@ -122,6 +122,9 @@ AA-3D Elo 来自同题作品的盲测偏好（95% 置信区间）。标准 API �
 | The Kite That Pulled the Sky | Canvas 画出风筝扯开乌云的过程，配乐由 Web Audio 合成。 | 发布前作品，作者标注 Astra。可本地运行，未找到复用许可证。[源码](https://github.com/PankajKumardev/The-Kite-That-Pulled-the-Sky) · [作者原帖](https://x.com/pankajkumar_dev/status/2117948791496032542) |
 | Ruby Kart | 同人卡丁车游戏，有多条赛道、多种模式和离线 HTML。 | Astra，作者称使用发布前的测试路由。原创代码按 MIT 授权，内嵌的第三方素材另计。作者说明在线版需要 GPT 账号。[仓库](https://github.com/vvvvvvvvvashhh/ruby-kart) · [试玩](https://ruby-kart-eight-circuits.vvvvvvvvvashhh.chatgpt.site/) |
 | 果冻实验室 · 亚里 | 彩虹果冻玩具，提供戳、拉扯、切开、扎钉子和加热的操作。 | 作者称使用 Sol xhigh。[公开源码](https://github.com/Yari-tuber/gpt62-vs-opus55-tests/tree/main/02_彩虹果冻/gpt-6.2-sol) · [共同提示词、其他模型版本与方法](https://github.com/Yari-tuber/gpt62-vs-opus55-tests)。MIT 许可。作者使用订阅，按 API 单价折算成本，所列金额并非实际 API 账单。 |
+| 飞龙飞行模拟 · zhzh2001 | 一款可玩的 C++20 飞行与战斗游戏。项目混合使用 Claude、Codex 和 Hunyuan 3D；有日期的项目记录具体说明 Astra 6.2 在 Codex 中参与了生物骨架绑定与修复。 | 作者记录的混合流程。[项目与渲染片段](https://github.com/zhzh2001/dragon) · [Astra 模型生成记录](https://github.com/zhzh2001/dragon/blob/main/docs/MODEL_GENERATION.md)。仓库说明飞龙模型由 Hunyuan 3D 生成；Astra 负责部分骨架绑定和修复，并非整款游戏。 |
+
+<a href="https://github.com/zhzh2001/dragon"><img src="https://raw.githubusercontent.com/zhzh2001/dragon/main/docs/media/roster.jpg" alt="飞行模拟项目中的六种飞龙" width="640"></a>
 
 ## 科学与工程
 

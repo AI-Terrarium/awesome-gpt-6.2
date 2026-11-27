@@ -19,10 +19,13 @@
 | 100 个 HTML 视觉实验 · MiaAI Lab | Astra 6.2 · 仓库自述 | 可搜索的独立网页作品集，每项附提示词和渲染预览。[公开仓库与作品集](https://github.com/MiaAI-Lab/GPT-6.2-Astra-100-HTML-Files) · [作者制作的缩略图](https://github.com/MiaAI-Lab/GPT-6.2-Astra-100-HTML-Files/tree/main/thumbs) |
 | Limon 动画对照 · Avenox | 混合流程：Astra 6.2 Extra High，分别使用纯代码和 ImageGen · 作者报告 | 11 月 17 日直播中的两段 30 秒无声工坊故事：一段采用 SVG/SMIL，另一段在 Canvas 中编排六张生成图。[制作说明](https://github.com/avenoxai/astra-notlari/tree/main/testler/03-limon-karsilastirmasi) · [SVG 源码](https://github.com/avenoxai/astra-notlari/blob/main/yayin-2026-11-17/09-limon-svg-kod/sonuc/limon.svg)。图像生成版本仅提供截图。 |
 | Necrolord 骷髅动画 · u/AC-Daniel | Codex 中的 Astra 6.2 · 作者报告 | 基于现有 Unity 骷髅预制体改进动画，以约 20 个精灵图切片和手工动画为上下文。[作者录屏与讨论](https://www.reddit.com/r/codex/comments/1y3dzx9/i_was_kind_of_disapointed_with_gpt_astra_62_but/)。作者称其他预制体的效果较差；模型归因仅指这次动画改进，不代表整款游戏。 |
+| 博物馆恐龙短片 · u/Minute_Razzmatazz914 | 混合流程：Codex 中的 GPT-6.2 Astra 与 GPT Image 2.5 · 作者报告 | 一段 52 秒的 Blender 短片，以博物馆照片为参考。作者称 Astra 编写场景 Python，负责建模、骨架绑定、动画、材质、灯光与镜头；GPT Image 2.5 制作了多角度参考图和片尾 QR 迷宫图案。流程还包括 Resolve/Fusion 后期、本地渲染和授权音效。[作者原帖与短片](https://www.reddit.com/r/TopologyAI/comments/1y5ihd4/i_directed_a_blender_short_with_gpt_astra_62/)。 |
 
 <a href="https://www.tomsguide.com/ai/chatgpt/i-tested-chatgpts-new-gpt-6-2-astra-with-one-prompt-and-built-a-website-id-actually-use"><img src="https://cdn.mos.cms.futurecdn.net/uZ7a46fApaQChpifaFz9k7.jpg" alt="Amanda Caswell 实测中的 Hearth 家庭事务面板" width="480"></a>
 
 <a href="https://github.com/avenoxai/astra-notlari/tree/main/testler/03-limon-karsilastirmasi"><img src="https://raw.githubusercontent.com/avenoxai/astra-notlari/main/yayin-2026-11-17/09-limon-svg-kod/sonuc/kare-22sn.jpg" alt="作者录屏中 Limon SVG 动画第 22 秒的画面" width="480"></a>
+
+<a href="https://www.reddit.com/r/TopologyAI/comments/1y5ihd4/i_directed_a_blender_short_with_gpt_astra_62/"><img src="https://external-preview.redd.it/i-directed-a-blender-short-with-gpt-astra-6-2-v0-MDF5amd2b25udN?auto=webp&amp;crop=smart&amp;format=pjpg&amp;s=288bab1de7e3f5aafba85076761d4038a02772f7&amp;width=640" alt="作者海报：博物馆展厅中显现的恐龙骨架" width="480"></a>
 
 ## 插画、动画与设计
 
